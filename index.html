@@ -4,429 +4,781 @@
 <meta name="robots" content="noindex">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>최소비용으로 건물의 가치를 높이는 방법 | 조훈희 전문위원 부동산 코칭 솔루션</title>
-<meta name="description" content="공실, 임대료, 계약 조항, 매각 수익률. 건물값을 움직이는 숫자를 20년 실무 경험으로 함께 봅니다.">
+<title>상업용 부동산 투자와 매각전략 4주 과정 | 부동산플래닛 자산전략센터 조훈희 박사</title>
+<meta name="description" content="AI 빅데이터와 20년 실무로 검증하는 건물 매입·운영·매각 전략 4주 과정. 실무형 전문가인 조훈희 박사가 이름과 얼굴을 걸고 직접 가르칩니다. 수료 후 1년 AS, 1:1 코칭 포함.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;600;700;900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
 <style>
-:root{--bg:#fbf3ea;--ink:#16130f;--sub:#6b6259;--line:#eadfd2;--accent:#ff5a3c;--accent2:#ff8a00;--navy:#1d2b4a;--tbd:#fff3b0}
+:root{--ink:#0b1424;--ink2:#121d33;--paper:#f4efe6;--paper2:#ebe4d6;--white:#fffdf9;--gold:#b08a3c;--gold2:#e2c98f;--sub:#5a6170;--line:#dcd4c6;--tbd:#fff0a8;--ok:#1f7a4d;--no:#b23b3b}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Pretendard,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
-a{color:inherit}
-html,body{overflow-x:hidden}
-.case .row>*,.products>*,.points>*,.twocol>*,.worries>*{min-width:0}
-.wrap{max-width:760px;margin:0 auto;padding:0 22px}
-.tbd{background:var(--tbd);border-radius:4px;padding:0 4px;font-weight:600}
-header.top{position:sticky;top:0;z-index:10;background:rgba(251,243,234,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
-.brand{font-weight:800;font-size:17px;letter-spacing:-.3px}
-.brand small{font-weight:500;color:var(--sub);font-size:13px;margin-left:6px}
-.btn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:12px;padding:15px 24px;font-weight:800;font-size:16px;text-decoration:none;cursor:pointer;font-family:inherit}
-.btn.primary{background:var(--accent);color:#fff;box-shadow:0 8px 20px rgba(255,90,60,.28)}
-.btn.ghost{background:#fff;color:var(--ink);border:2px solid var(--ink)}
-.btn.sm{padding:9px 14px;font-size:14px;border-radius:10px}
-section{padding:72px 0}
-.eyebrow{font-size:14px;font-weight:700;color:var(--accent);letter-spacing:.5px;margin-bottom:10px}
-h2{font-size:clamp(26px,5.6vw,38px);line-height:1.3;letter-spacing:-1px;font-weight:900;margin-bottom:16px}
-.lead{color:var(--sub);font-size:17px}
-.hero{padding:48px 0 64px;text-align:center;overflow:hidden}
-.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:8px 0 34px}
-.chip{background:#fff;border-radius:14px;padding:12px 18px;font-weight:800;font-size:18px;box-shadow:0 6px 18px rgba(80,50,20,.08)}
-.chip{color:var(--ink)}
-.hero .kicker{color:var(--sub);font-size:16px;margin-bottom:14px}
-.hero h1{font-size:clamp(38px,9vw,62px);line-height:1.18;letter-spacing:-2px;font-weight:900}
-.hero h1 em{font-style:normal;color:var(--accent)}
-.promise{display:inline-block;margin:26px 0 14px;border:2px solid var(--accent2);border-radius:14px;background:#fff;padding:12px 20px;font-weight:700}
-.promise b{color:var(--accent2)}
-.cred{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 16px;color:var(--sub);font-size:14px;margin:6px 0 26px}
-.cred span{color:var(--navy);font-weight:700}
-.ctas{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
-.hero-photo{margin:40px auto 0;max-width:420px;position:relative}
-.h1sub{font-size:clamp(22px,5vw,32px);font-weight:800;letter-spacing:-1px;color:var(--navy);margin-top:14px}
-.hero-photo img{width:100%;display:block;background:none}
-.hero-photo .tag{position:absolute;left:-10px;bottom:24px;background:var(--navy);color:#fff;border-radius:12px;padding:10px 14px;font-size:14px;text-align:left;line-height:1.4}
-.formula{background:var(--navy);color:#fff;border-radius:24px;padding:34px 28px;text-align:center}
-.formula .big{font-size:clamp(24px,5.4vw,34px);font-weight:900;line-height:1.35;letter-spacing:-1px}
-.formula .big em{font-style:normal;color:#ffcf5a}
-.formula .eq{margin-top:18px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;font-weight:700}
-.formula .eq span{background:rgba(255,255,255,.1);border-radius:10px;padding:8px 12px}
-.formula p{margin-top:16px;color:#c9d2e6;font-size:14px}
-.worries{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px}
-.worry{background:#fff;border-radius:16px;padding:18px;font-weight:700;border-left:4px solid var(--accent2)}
-.ba{display:grid;gap:22px;margin-top:30px}
-.case{background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 10px 30px rgba(80,50,20,.07)}
-.case .head{padding:20px 22px 0}
-.case .no{font-size:13px;font-weight:800;color:var(--accent)}
-.case h3{font-size:21px;line-height:1.4;letter-spacing:-.5px;margin:4px 0 14px}
-.case .row{display:grid;grid-template-columns:1fr 34px 1fr;align-items:stretch;padding:0 22px}
-.case .b,.case .a{border-radius:14px;padding:14px}
-.case .b{background:#f2ece6}
-.case .a{background:#fff1ec;border:2px solid var(--accent)}
-.case .lbl{font-size:12px;font-weight:800;letter-spacing:1px;margin-bottom:6px;color:var(--sub)}
-.case .a .lbl{color:var(--accent)}
-.case .arrow{display:flex;align-items:center;justify-content:center;font-size:22px;color:var(--accent);font-weight:900}
-.case .v{font-weight:800;font-size:17px;line-height:1.35}
-.case .d{font-size:13.5px;color:var(--sub);margin-top:4px}
-.case .how{padding:16px 22px 0;font-size:15px}
-.case .how b{color:var(--navy)}
-.case .value{flex-wrap:wrap;margin:16px 22px 22px;background:var(--navy);color:#fff;border-radius:14px;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;gap:10px}
-.case .value .k{font-size:13px;color:#c9d2e6}
-.case .value .n{font-size:22px;font-weight:900;color:#ffcf5a}
-.note{font-size:13px;color:var(--sub);margin-top:18px}
-.points{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px}
-.point{background:#fff;border-radius:18px;padding:20px}
-.point .ic{font-size:26px}
-.point h4{font-size:17px;margin:6px 0 4px}
-.point p{font-size:14.5px;color:var(--sub)}
-.steps{counter-reset:s;margin-top:26px;display:grid;gap:14px}
-.step{background:#fff;border-radius:18px;padding:20px 20px 20px 74px;position:relative}
-.step::before{counter-increment:s;content:counter(s,decimal-leading-zero);position:absolute;left:20px;top:18px;font-size:26px;font-weight:900;color:var(--accent)}
-.step h4{font-size:18px}
-.career .step{padding-left:20px}
-.career .step::before{content:none}
-.step p{color:var(--sub);font-size:15px}
-.products{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}
-.prod{background:#fff;border-radius:22px;padding:26px 22px;display:flex;flex-direction:column;border:2px solid transparent}
-.prod.main{border-color:var(--accent)}
-.prod .badge{align-self:flex-start;background:var(--accent);color:#fff;font-size:12px;font-weight:800;border-radius:999px;padding:4px 10px;margin-bottom:10px}
-.prod .badge.navy{background:var(--navy)}
-.prod h3{font-size:22px;letter-spacing:-.5px}
-.prod .price{font-size:22px;font-weight:900;margin:10px 0 4px}
-.prod ul{list-style:none;margin:12px 0 20px;flex:1}
-.prod li{padding:7px 0;border-bottom:1px dashed var(--line);font-size:15px}
-.prod li::before{content:"• ";color:var(--accent);font-weight:900}
-.prod .btn{justify-content:center}
-.twocol{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px}
-.box{background:#fff;border-radius:18px;padding:22px}
-.box h4{margin-bottom:10px}
-.box li{list-style:none;padding:6px 0;font-size:15px;border-bottom:1px solid var(--line)}
-.box.yes li::before{content:"✓ ";color:#14a44d;font-weight:900}
-.box.no li::before{content:"✕ ";color:#c0392b;font-weight:900}
-.profile{display:grid;grid-template-columns:200px 1fr;gap:26px;align-items:center;margin-top:26px}
-.profile img{width:100%;border-radius:50%;background:#ead3bb;aspect-ratio:1/1;object-fit:cover}
-.cv{display:grid;gap:14px;margin-top:22px}
-.cv .blk{background:#fff;border-radius:18px;padding:20px 22px}
-.cv h4{font-size:16px;color:var(--accent);margin-bottom:8px}
-.cv li{list-style:none;padding:5px 0;font-size:14.5px;border-bottom:1px dashed var(--line)}
-.cv li:last-child{border-bottom:0}
-.cv li span{color:var(--sub);font-size:13px;margin-right:8px;display:inline-block;min-width:64px}
+html{scroll-behavior:smooth}
+body{font-family:Pretendard,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;background:var(--paper);color:var(--ink);line-height:1.68;-webkit-font-smoothing:antialiased;overflow-x:hidden;word-break:keep-all}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.5;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .05 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.serif{font-family:'Noto Serif KR',serif}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px;position:relative}
+.narrow{max-width:860px}
+section{padding:110px 0;position:relative}
+section.sec::before{content:attr(data-n);position:absolute;right:-10px;top:40px;font-family:'Noto Serif KR',serif;font-size:220px;line-height:1;font-weight:900;color:rgba(11,20,36,.045);letter-spacing:-8px;pointer-events:none}
+.dark.sec::before,.apply.sec::before{color:rgba(255,255,255,.04)}
+.eyebrow{display:flex;align-items:center;gap:12px;font-size:12px;font-weight:700;letter-spacing:3px;color:var(--gold);text-transform:uppercase;margin-bottom:18px}
+.eyebrow::before{content:"";width:34px;height:1px;background:var(--gold)}
+h2{font-family:'Noto Serif KR',serif;font-size:clamp(30px,4.6vw,46px);line-height:1.28;letter-spacing:-1px;font-weight:900;margin-bottom:20px}
+h3{font-size:20px;letter-spacing:-.3px}
+.lead{color:var(--sub);font-size:17px;max-width:720px}
+.tbd{background:var(--tbd);border-radius:3px;padding:0 4px;font-weight:600;font-size:.92em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:3px;padding:17px 28px;font-weight:700;font-size:15.5px;cursor:pointer;font-family:inherit;letter-spacing:.2px;transition:.2s;position:relative}
+.btn.gold{background:linear-gradient(135deg,#c9a24f,#a8812f);color:#fff;box-shadow:0 10px 24px rgba(176,138,60,.35)}
+.btn.gold:hover{transform:translateY(-1px);box-shadow:0 14px 28px rgba(176,138,60,.45)}
+.btn.ink{background:var(--ink);color:#fff}
+.btn.line{background:transparent;border-color:rgba(255,255,255,.55);color:#fff}
+.btn.line:hover{background:rgba(255,255,255,.08)}
+.btn.line.dark{border-color:var(--ink);color:var(--ink)}
+.btn.sm{padding:10px 18px;font-size:13.5px}
+.btn small{font-weight:500;opacity:.85;font-size:12.5px}
+/* header */
+header.top{position:sticky;top:0;z-index:30;background:rgba(11,20,36,.86);backdrop-filter:blur(14px);color:#fff;border-bottom:1px solid rgba(226,201,143,.18)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:66px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:16px;white-space:nowrap;letter-spacing:-.2px}
+.brand .x{color:var(--gold2);font-weight:400}
+.brand img{height:18px;filter:brightness(0) invert(1)}
+nav.menu{display:flex;gap:26px;font-size:13.5px;color:#b9c1d1;letter-spacing:.3px}
+nav.menu a:hover{color:var(--gold2)}
+/* hero */
+.hero{background:var(--ink);color:#fff;padding:0;position:relative;overflow:hidden;min-height:720px;display:flex;align-items:stretch}
+.hero .bg{position:absolute;inset:0}
+.hero .bg img{width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:.28;filter:saturate(.6)}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,20,36,.96) 0%,rgba(11,20,36,.82) 45%,rgba(11,20,36,.35) 100%),linear-gradient(0deg,rgba(11,20,36,1) 0%,transparent 35%)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:end;padding-top:70px}
+.hero .side{position:absolute;left:-6px;top:120px;writing-mode:vertical-rl;transform:rotate(180deg);font-size:11px;letter-spacing:4px;color:rgba(226,201,143,.7);display:flex;gap:14px;align-items:center}
+.hero .side::after{content:"";width:1px;height:70px;background:rgba(226,201,143,.5)}
+.hero .kicker{display:inline-flex;align-items:center;gap:10px;font-size:12.5px;letter-spacing:1.5px;color:var(--gold2);border:1px solid rgba(226,201,143,.45);padding:8px 16px;margin:0 0 30px 0}
+.hero .kicker img{height:13px;filter:brightness(0) invert(1);opacity:.9}
+.hero h1{font-family:'Noto Serif KR',serif;font-size:clamp(32px,4.9vw,58px);line-height:1.22;letter-spacing:-1.5px;font-weight:900}
+.hero h1 em{font-style:normal;color:var(--gold2);position:relative}
+.hero h1 em::after{content:"";position:absolute;left:0;right:0;bottom:4px;height:1px;background:rgba(226,201,143,.45)}
+.hero .rule{width:64px;height:2px;background:var(--gold2);margin:28px 0 22px}
+.hero .sub{color:#c3cad8;font-size:16.5px;max-width:560px;margin-bottom:34px}
+.hero .sub b{color:#fff}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:56px}
+.hero .photo{position:relative;align-self:end}
+.hero .photo img{width:100%;max-width:470px;margin:0 auto;filter:drop-shadow(0 30px 40px rgba(0,0,0,.5))}
+.hero .photo .cap{position:absolute;left:-10px;bottom:40px;background:rgba(11,20,36,.72);backdrop-filter:blur(6px);border-left:2px solid var(--gold2);padding:12px 16px;font-size:12.5px;line-height:1.5;color:#c3cad8}
+.hero .photo .cap b{font-size:16px;color:#fff;font-family:'Noto Serif KR',serif}
+.trust{background:var(--ink);color:#b9c1d1;font-size:13.5px;border-top:1px solid rgba(226,201,143,.25);border-bottom:1px solid rgba(226,201,143,.25);position:relative}
+.trust .wrap{display:flex;flex-wrap:wrap;gap:0;justify-content:space-between;padding:0 28px}
+.trust span{padding:18px 10px;flex:1;text-align:center;border-left:1px solid rgba(255,255,255,.08)}
+.trust span:first-child{border-left:0}
+.trust b{display:block;color:#fff;font-weight:700;font-family:'Noto Serif KR',serif;font-size:17px;letter-spacing:-.3px}
+/* band */
+.band{height:380px;overflow:hidden;position:relative}
+.band img{width:100%;height:100%;object-fit:cover}
+.band .t{position:absolute;left:0;right:0;bottom:0;padding:26px 28px;background:linear-gradient(transparent,rgba(11,20,36,.9));color:#fff;font-size:14px;font-family:'Noto Serif KR',serif;letter-spacing:.3px}
+/* manifesto */
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:48px;border:1px solid var(--line);background:var(--white)}
+.card{padding:36px 30px;border-left:1px solid var(--line);position:relative}
+.three .card:first-child{border-left:0}
+.card .n{font-family:'Noto Serif KR',serif;font-size:44px;color:var(--gold);line-height:1;margin-bottom:18px;font-weight:900;letter-spacing:-2px}
+.card h3{margin-bottom:12px;font-size:19px;font-family:'Noto Serif KR',serif}
+.card p{color:var(--sub);font-size:15px}
+/* pillars */
+.pillars{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:48px}
+.pillar{position:relative;background:var(--white);border:1px solid var(--line);overflow:visible;margin-top:60px}
+.pillar .ph{height:230px;position:relative;margin:-60px 20px 0;overflow:hidden;box-shadow:0 24px 40px rgba(11,20,36,.22)}
+.pillar .ph img{width:100%;height:100%;object-fit:cover;filter:saturate(.8)}
+.pillar .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(11,20,36,.85),transparent 60%)}
+.pillar .ph .tag{position:absolute;left:18px;bottom:16px;color:var(--gold2);font-family:'Noto Serif KR',serif;font-size:12px;letter-spacing:3px;z-index:1}
+.pillar .bd{padding:30px 32px 34px}
+.pillar h3{font-family:'Noto Serif KR',serif;font-size:26px;margin-bottom:6px;font-weight:900;letter-spacing:-.8px}
+.pillar .sub{color:var(--sub);font-size:14px;margin-bottom:20px}
+.pillar ol{list-style:none;counter-reset:p}
+.pillar li{counter-increment:p;padding:12px 0 12px 40px;border-top:1px solid var(--line);font-size:15px;position:relative}
+.pillar li::before{content:counter(p,decimal-leading-zero);position:absolute;left:0;top:13px;font-size:12px;font-weight:800;color:var(--gold);letter-spacing:1px;font-family:'Noto Serif KR',serif}
+.pillar li b{display:block;font-size:15.5px}
+.pillar li span{color:var(--sub);font-size:13.5px}
+/* dark */
+.dark{background:var(--ink);color:#fff;background-image:radial-gradient(800px 400px at 15% 0%,rgba(176,138,60,.16),transparent 60%)}
+.dark h2{color:#fff}
+.dark .lead{color:#b9c1d1}
+.dark .eyebrow{color:var(--gold2)}.dark .eyebrow::before{background:var(--gold2)}
+.dstats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:40px;border-top:1px solid rgba(226,201,143,.3);border-bottom:1px solid rgba(226,201,143,.3)}
+.dstats div{padding:26px 12px;text-align:center;border-left:1px solid rgba(255,255,255,.1)}
+.dstats div:first-child{border-left:0}
+.dstats b{display:block;font-family:'Noto Serif KR',serif;font-size:32px;color:var(--gold2);letter-spacing:-1px;font-weight:900}
+.dstats span{font-size:13px;color:#b9c1d1}
+.dflow{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.dflow figure{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);padding:20px 18px;text-align:center;position:relative}
+.dflow figure::before{content:"";position:absolute;left:0;top:0;width:40px;height:2px;background:var(--gold2)}
+.dflow img{width:100%;max-width:180px;border-radius:14px;margin:0 auto 14px;background:#fff;box-shadow:0 20px 30px rgba(0,0,0,.4)}
+.dflow h4{font-size:16px;font-family:'Noto Serif KR',serif}
+.dflow p{font-size:13.5px;color:#b9c1d1;margin-top:4px}
+.dnote{font-size:12.5px;color:#8b94a8;margin-top:18px}
+/* course */
+.course{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:start;margin-top:44px}
+.offer{background:var(--ink);color:#fff;padding:36px 34px;position:sticky;top:90px;border:1px solid rgba(226,201,143,.4);outline:1px solid rgba(226,201,143,.25);outline-offset:6px}
+.offer .name{font-family:'Noto Serif KR',serif;font-size:24px;line-height:1.3;font-weight:900}
+.offer .meta{color:#b9c1d1;font-size:13.5px;margin:8px 0 22px}
+.offer .price{font-family:'Noto Serif KR',serif;font-size:50px;color:var(--gold2);line-height:1;letter-spacing:-2px;font-weight:900}
+.offer .price small{font-family:Pretendard;font-size:13px;color:#b9c1d1;margin-left:8px;letter-spacing:0}
+.offer ul{list-style:none;margin:24px 0 26px;border-top:1px solid rgba(226,201,143,.3)}
+.offer li{padding:11px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:14.5px;display:flex;gap:10px}
+.offer li::before{content:"✓";color:var(--gold2);font-weight:900}
+.offer li b{color:#fff}
+.offer .btn{width:100%}
+.offer .fine{font-size:12px;color:#8b94a8;margin-top:12px;text-align:center}
+.weeks{position:relative;padding-left:34px}
+.weeks::before{content:"";position:absolute;left:9px;top:10px;bottom:10px;width:1px;background:linear-gradient(var(--gold),rgba(176,138,60,.2))}
+.phase{display:flex;align-items:center;gap:12px;margin:26px 0 10px;font-size:12px;font-weight:800;letter-spacing:2.5px;color:var(--gold);position:relative}
+.phase::before{content:"";position:absolute;left:-30px;top:50%;width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px var(--paper)}
+.phase::after{content:"";flex:1;height:1px;background:var(--line)}
+.wk{background:var(--white);border:1px solid var(--line);padding:18px 20px 18px 82px;position:relative;margin-bottom:10px;transition:.2s}
+.wk:hover{border-color:var(--gold);box-shadow:0 12px 30px rgba(11,20,36,.08)}
+.wk .n{position:absolute;left:20px;top:14px;font-family:'Noto Serif KR',serif;font-size:30px;color:var(--gold);line-height:1;font-weight:900;letter-spacing:-1px}
+.wk .n small{display:block;font-family:Pretendard;font-size:9.5px;letter-spacing:2px;color:var(--sub);margin-top:3px;font-weight:700}
+.wk h4{font-size:16.5px;letter-spacing:-.2px;font-family:'Noto Serif KR',serif}
+.wk p{font-size:14px;color:var(--sub);margin-top:5px}
+.wk .who{display:inline-block;font-size:11px;font-weight:700;color:var(--gold);border:1px solid var(--gold);padding:1px 8px;margin-left:8px;vertical-align:2px;letter-spacing:.5px;font-family:Pretendard}
+.wk.field{border:0;color:#fff;min-height:170px;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding:24px 24px 24px 82px}
+.wk.field .pic{position:absolute;inset:0;width:auto;border-radius:0;opacity:1;z-index:0}
+.wk.field .pic img{width:100%;height:100%;object-fit:cover;filter:saturate(.7)}
+.wk.field .pic::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,20,36,.95) 30%,rgba(11,20,36,.55))}
+.wk.field h4,.wk.field p{position:relative;z-index:1;padding-right:0}
+.wk.field .n{z-index:1}
+.wk.field .n{color:var(--gold2)}.wk.field .n small{color:#b9c1d1}
+.wk.field p{color:#c3cad8}
+/* AS */
+.asgrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;margin-top:34px;border:1px solid var(--line);background:var(--white)}
+.asgrid .card{padding:28px}
+.asgrid .card:first-child{border-left:0}
+.asgrid h3{font-family:'Noto Serif KR',serif;margin-bottom:8px}
+.asgrid p{color:var(--sub);font-size:14.5px}
+.dm{display:flex;gap:14px;overflow-x:auto;padding:10px 28px 24px;margin:34px -28px 0;scroll-snap-type:x mandatory;scrollbar-width:thin}
+.dm img{width:230px;flex:none;border-radius:22px;border:6px solid #1b1b1f;scroll-snap-align:start;background:#fff;box-shadow:0 20px 34px rgba(11,20,36,.22)}
+/* cases */
+.cases{display:grid;gap:22px;margin-top:44px}
+.case{background:var(--white);border:1px solid var(--line);padding:34px 36px;display:grid;grid-template-columns:1fr 300px;gap:30px;align-items:start;position:relative;overflow:hidden}
+.case::before{content:attr(data-k);position:absolute;right:300px;top:-14px;font-family:'Noto Serif KR',serif;font-size:120px;font-weight:900;color:rgba(176,138,60,.07);letter-spacing:-4px;line-height:1}
+.case .no{font-size:11.5px;letter-spacing:3px;color:var(--gold);font-weight:800}
+.case h3{font-family:'Noto Serif KR',serif;font-size:24px;line-height:1.35;margin:8px 0 12px;font-weight:900;letter-spacing:-.6px}
+.case p{font-size:15px;color:var(--sub)}
+.case .res{border-left:2px solid var(--gold);padding:14px 18px;background:var(--paper)}
+.case .res .k{font-size:11.5px;color:var(--sub);letter-spacing:2px}
+.case .res .v{font-family:'Noto Serif KR',serif;font-size:26px;line-height:1.25;color:var(--ink);font-weight:900;letter-spacing:-.8px}
+.case .res .d{font-size:13px;color:var(--sub);margin-top:4px}
+.case .side{display:grid;gap:12px}
+.case .side img{border:1px solid var(--line)}
+.medal{display:flex;gap:12px;align-items:center;background:linear-gradient(135deg,#fff8e6,#f7ecd0);border:1px solid #e3cf9d;padding:12px 14px}
+.medal svg{flex:none;filter:drop-shadow(0 3px 4px rgba(0,0,0,.2))}
+.medal b{display:block;font-size:14px;line-height:1.35;font-family:'Noto Serif KR',serif}
+.medal span{font-size:12.5px;color:var(--sub)}
+.fusion{margin-top:34px;background:var(--ink);color:#fff;padding:36px 40px;display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center;border-left:4px solid var(--gold2)}
+.fusion .serif{font-size:24px;line-height:1.4;font-weight:900}
+.fusion p{color:#b9c1d1;font-size:14.5px}
+/* reviews */
+.rstats{display:grid;grid-template-columns:repeat(2,1fr);gap:0;margin-top:36px;border-top:1px solid var(--gold);border-bottom:1px solid var(--gold)}
+.rstats div{padding:24px 18px;text-align:center;border-left:1px solid var(--line)}
+.rstats div:first-child{border-left:0}
+.rstats b{display:block;font-family:'Noto Serif KR',serif;font-size:36px;color:var(--ink);font-weight:900;letter-spacing:-1px}
+.rstats span{font-size:13px;color:var(--sub)}
+.quotes{columns:3;column-gap:16px;margin-top:28px}
+.q{break-inside:avoid;background:var(--white);border:1px solid var(--line);padding:22px 22px 18px;margin-bottom:16px;font-size:14.5px;position:relative}
+.q::before{content:"“";font-family:'Noto Serif KR',serif;font-size:56px;color:var(--gold);line-height:.4;display:block;margin:6px 0 14px;opacity:.9}
+.q .who{display:block;margin-top:12px;font-size:12px;color:var(--sub);letter-spacing:.3px;border-top:1px dashed var(--line);padding-top:8px}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:8px;margin-top:40px}
+.gal figure{position:relative;overflow:hidden;background:#ddd}
+.gal img{width:100%;height:100%;object-fit:cover;transition:.6s;filter:saturate(.85)}
+.gal figure:hover img{transform:scale(1.05);filter:saturate(1)}
+.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;background:linear-gradient(transparent,rgba(11,20,36,.9));color:#fff;font-size:12.5px;font-weight:600;letter-spacing:.2px}
+.gal .w2{grid-column:span 2}.gal .h2{grid-row:span 2}
+.chips{display:flex;gap:8px;margin-top:12px;overflow:hidden;white-space:nowrap;position:relative;-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.chips .trk{display:flex;gap:8px;animation:mq 50s linear infinite;flex:none}
+.chips:nth-of-type(even) .trk{animation-direction:reverse}
+.chips:hover .trk{animation-play-state:paused}
+@keyframes mq{to{transform:translateX(-50%)}}
+.chips span{background:var(--white);border:1px solid var(--line);padding:7px 14px;font-size:13px;font-weight:600;flex:none}
+.chips .h{font-weight:800;color:var(--gold);background:none;border:0;padding-left:0;letter-spacing:2px;font-size:11.5px}
+.media{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:34px}
+.media figure{background:var(--white);border:1px solid var(--line);overflow:hidden}
+.media img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.media figcaption{padding:12px 14px;font-size:13px;color:var(--sub)}
+.media figcaption b{display:block;font-size:13.5px;color:var(--ink);font-family:'Noto Serif KR',serif}
+/* books: 책장 */
+.shelf{background:var(--ink);color:#fff;background-image:radial-gradient(700px 300px at 85% 10%,rgba(176,138,60,.18),transparent 60%)}
+.shelf h2{color:#fff}.shelf .lead{color:#b9c1d1}.shelf .eyebrow{color:var(--gold2)}.shelf .eyebrow::before{background:var(--gold2)}
+.books{display:grid;grid-template-columns:repeat(4,1fr);gap:28px 18px;margin-top:48px;perspective:1400px}
+.book{text-align:center}
+.book .cv{position:relative;display:inline-block;transform:rotateY(-14deg);transform-origin:left center;box-shadow:16px 24px 40px rgba(0,0,0,.55),-1px 0 0 rgba(255,255,255,.15) inset;transition:.4s}
+.book:hover .cv{transform:rotateY(0) translateY(-6px)}
+.book .cv img{height:270px;width:auto}
+.book .bd{position:absolute;top:12px;left:-8px;background:linear-gradient(135deg,#c9a24f,#a8812f);color:#fff;font-size:11.5px;font-weight:800;letter-spacing:.5px;padding:5px 11px 5px 13px;box-shadow:0 3px 8px rgba(0,0,0,.4)}
+.book .bd.navy{background:linear-gradient(135deg,#3a4a6e,#1d2b4a)}
+.book .bd.tw{background:linear-gradient(135deg,#2f8a84,#1f5f5b)}
+.book h4{font-size:14.5px;margin-top:16px;line-height:1.35;font-family:'Noto Serif KR',serif;color:#fff}
+.book span{font-size:12.5px;color:#9aa3b5}
+.bestcaps{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:40px}
+.bestcaps figure{border:1px solid rgba(255,255,255,.15);overflow:hidden;background:#fff}
+.bestcaps figcaption{padding:9px 12px;font-size:12.5px;color:#b9c1d1;background:var(--ink2)}
+/* coaching */
+.coach{display:grid;grid-template-columns:.9fr 1.1fr;gap:30px;margin-top:44px;align-items:start}
+.flow{list-style:none;counter-reset:f;display:grid;gap:0;border-left:1px solid var(--gold);margin-left:14px}
+.flow li{counter-increment:f;padding:16px 18px 16px 48px;position:relative}
+.flow li::before{content:counter(f,decimal-leading-zero);position:absolute;left:-15px;top:18px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--gold2);font-family:'Noto Serif KR',serif;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:12px;box-shadow:0 0 0 4px var(--paper)}
+.flow h4{font-size:16px;font-family:'Noto Serif KR',serif}.flow p{font-size:14px;color:var(--sub);margin-top:3px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+.chk{background:var(--white);border:1px solid var(--line);padding:28px;position:relative}
+.chk::before{content:"";position:absolute;left:0;top:0;width:44px;height:3px;background:var(--gold)}
+.chk h3{font-family:'Noto Serif KR',serif;font-size:21px;margin-bottom:14px;font-weight:900}
+.chk li{list-style:none;padding:9px 0 9px 26px;position:relative;font-size:14.5px;border-top:1px dashed var(--line)}
+.chk li::before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:900}
+.chk .out{margin-top:14px;font-size:13.5px;color:var(--ink);background:var(--paper);padding:12px 14px;border-left:2px solid var(--gold)}
+.yesno{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:34px}
+.yesno .chk.no li::before{content:"✕";color:var(--no)}
+.yesno .chk.no::before{background:var(--no)}
+/* profile */
+.prof{display:grid;grid-template-columns:320px 1fr;gap:38px;margin-top:40px;align-items:start}
+.prof .pic{position:sticky;top:90px}
+.prof .pic img{box-shadow:0 24px 44px rgba(11,20,36,.25)}
+.prof .pic .cap{font-size:12.5px;color:var(--sub);margin-top:10px;font-family:'Noto Serif KR',serif}
+.cv{display:grid;gap:14px}
+.cv .blk{background:var(--white);border:1px solid var(--line);padding:20px 24px}
+.cv h4{font-size:11.5px;letter-spacing:3px;color:var(--gold);margin-bottom:10px;text-transform:uppercase;font-weight:800}
+.cv table{width:100%;border-collapse:collapse;font-size:14px}
+.cv td{padding:7px 0;border-top:1px solid var(--line);vertical-align:top}
+.cv tr:first-child td{border-top:0}
+.cv td.d{width:96px;color:var(--sub);font-variant-numeric:tabular-nums;white-space:nowrap;font-size:12.5px;padding-right:10px;font-family:'Noto Serif KR',serif}
 .cv2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-@media(max-width:620px){.cv2{grid-template-columns:1fr}}
-.profile ul{list-style:none}
-.profile li{padding:5px 0;font-size:15px}
-.profile li b{display:inline-block;min-width:44px;color:var(--accent)}
-.letter{background:#fff;border-radius:22px;padding:30px 26px;font-size:16.5px;line-height:1.85}
-.letter .sign{text-align:right;font-weight:800;margin-top:14px}
-details{background:#fff;border-radius:14px;padding:16px 18px;margin-top:10px}
-summary{font-weight:700;cursor:pointer;list-style:none}
-summary::before{content:"Q. ";color:var(--accent);font-weight:900}
-details p{margin-top:10px;color:var(--sub);font-size:15px}
-.final{background:var(--ink);color:#fff;text-align:center;border-radius:28px;padding:46px 24px}
-.final h2{color:#fff}
-.final p{color:#cfc6bc}
-footer{padding:36px 0 110px;color:var(--sub);font-size:13px;line-height:1.8}
-.bar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:#fff;border-top:1px solid var(--line);padding:10px 14px;display:flex;gap:10px;justify-content:center}
-.bar .btn{flex:1;max-width:340px;justify-content:center;padding:13px 10px;font-size:15px}
-@media(max-width:620px){
- .worries,.points,.products,.twocol{grid-template-columns:1fr}
- .profile{grid-template-columns:1fr}
- .profile img{max-width:220px}
- .case .row{grid-template-columns:1fr;gap:6px}
- .case .arrow{transform:rotate(90deg);height:26px}
- section{padding:56px 0}
+.letter{background:var(--white);border:1px solid var(--line);padding:48px 52px;font-size:17px;line-height:1.95;font-family:'Noto Serif KR',serif;position:relative}
+.letter::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(var(--gold),var(--gold2))}
+.letter .sign{text-align:right;font-weight:900;margin-top:18px}
+/* faq */
+details{background:var(--white);border:1px solid var(--line);padding:18px 22px;margin-top:8px}
+summary{font-weight:700;cursor:pointer;list-style:none;font-size:15.5px;display:flex;gap:10px;align-items:baseline}
+summary::before{content:"Q";color:var(--gold);font-weight:900;font-family:'Noto Serif KR',serif;font-size:18px}
+summary::after{content:"+";margin-left:auto;color:var(--gold);font-size:20px;font-weight:300}
+details[open] summary::after{content:"–"}
+details p{margin-top:12px;color:var(--sub);font-size:14.5px;padding-left:24px}
+/* apply */
+.apply{background:var(--ink);color:#fff;background-image:radial-gradient(900px 400px at 50% 100%,rgba(176,138,60,.2),transparent 60%)}
+.apply h2{color:#fff}.apply .eyebrow{color:var(--gold2)}.apply .eyebrow::before{background:var(--gold2)}
+.apply .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:34px}
+.apply .box{border:1px solid rgba(226,201,143,.4);padding:32px;position:relative}
+.apply .box h3{font-family:'Noto Serif KR',serif;font-size:24px;margin-bottom:6px;font-weight:900}
+.apply .box p{color:#b9c1d1;font-size:14.5px;margin-bottom:18px}
+.apply .box .price{font-family:'Noto Serif KR',serif;font-size:36px;color:var(--gold2);margin-bottom:16px;font-weight:900;letter-spacing:-1px}
+.apply .box .price small{font-family:Pretendard;font-size:13px;color:#b9c1d1;margin-left:8px;letter-spacing:0}
+footer{padding:40px 0 120px;color:var(--sub);font-size:12.5px;line-height:1.8;border-top:1px solid var(--line)}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:40;background:rgba(255,253,249,.96);border-top:1px solid var(--line);padding:10px 14px;display:flex;gap:10px;justify-content:center;backdrop-filter:blur(10px)}
+.bar .btn{flex:1;max-width:360px;padding:13px 10px;font-size:15px}
+@media(max-width:900px){
+ nav.menu{display:none}
+ section{padding:70px 0}
+ section.sec::before{font-size:120px;top:20px}
+ .hero{min-height:0}
+ .hero .wrap{grid-template-columns:1fr;padding-top:50px}
+ .hero .side{display:none}
+ .hero .photo img{max-width:330px}
+ .trust .wrap{flex-wrap:wrap}.trust span{flex:1 1 45%;border-left:0;border-top:1px solid rgba(255,255,255,.08)}
+ .three,.pillars,.dflow,.asgrid,.course,.fusion,.coach,.two,.yesno,.prof,.cv2,.apply .grid,.media,.bestcaps{grid-template-columns:1fr}
+ .three .card{border-left:0;border-top:1px solid var(--line)}
+ .dstats,.rstats{grid-template-columns:1fr 1fr}
+ .dstats div:nth-child(3),.rstats div:nth-child(3){border-left:0;border-top:1px solid rgba(255,255,255,.1)}
+ .offer{position:static}
+ .prof .pic{position:static}
+ .case{grid-template-columns:1fr}.case::before{right:10px}
+ .quotes{columns:1}
+ .gal{grid-template-columns:1fr 1fr;grid-auto-rows:150px}
+ .books{grid-template-columns:1fr 1fr}
+ .book .cv img{height:220px}
+ .band{height:220px}
+ .letter{padding:30px 26px}
+ .dflow img{max-width:150px}
+ .pillar{margin-top:40px}.pillar .ph{height:170px;margin:-40px 14px 0}
 }
+
+.hero .photo .cap{position:static;margin:14px auto 0;max-width:470px;background:none;border-left:2px solid var(--gold2);padding:6px 14px}
+.hero .ctas{display:none}
+.trust span{flex:1 1 16%}
+.books{grid-template-columns:repeat(8,1fr);gap:12px 8px;margin-top:40px}
+.book .cv img{height:190px}
+.book .bd{left:auto;right:-10px;top:-10px;width:44px;height:44px;border-radius:50%;padding:0;display:flex;align-items:center;justify-content:center;font-size:9.5px;line-height:1.1;text-align:center;letter-spacing:0;box-shadow:0 3px 10px rgba(0,0,0,.5)}
+.book h4{font-size:12.5px;margin-top:12px}
+.book span{font-size:11px}
+.yt{display:flex;gap:10px;overflow:hidden;margin-top:18px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.yt .trk{display:flex;gap:10px;animation:mq 70s linear infinite;flex:none}
+.yt:hover .trk{animation-play-state:paused}
+.yt figure{width:200px;flex:none;background:var(--white);border:1px solid var(--line)}
+.yt img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.yt figcaption{padding:7px 9px;font-size:11.5px;color:var(--sub);line-height:1.35}
+.yt figcaption b{display:block;color:var(--ink);font-size:12px}
+.case .up{display:flex;align-items:center;gap:10px;margin-top:6px}
+.case .up .a{font-size:14px;color:var(--sub);text-decoration:line-through}
+.case .up .b{font-family:'Noto Serif KR',serif;font-size:26px;font-weight:900;color:var(--ink)}
+.case .up .g{background:#1f7a4d;color:#fff;font-size:12px;font-weight:800;padding:3px 9px;border-radius:999px}
+.case .ph{aspect-ratio:4/3;background:var(--paper2);border:1px dashed var(--line);display:flex;align-items:center;justify-content:center;font-size:12.5px;color:var(--sub);text-align:center;padding:10px}
+@media(max-width:900px){.books{grid-template-columns:repeat(4,1fr)}.book .cv img{height:150px}.trust span{flex:1 1 45%}}
+
+.case{display:block}
+.case p{font-size:16px;color:var(--ink)}
+.case .side{display:flex;gap:12px;margin-top:20px;align-items:stretch}
+.case .side .res{flex:1.6;min-width:230px}
+.case .side .res .v{font-size:22px}
+.case .side img,.case .side .ph{flex:1;height:200px;width:auto;object-fit:cover;aspect-ratio:auto}
+.case .side .medal{flex:1.2;min-width:200px}
+.gal img.top{object-position:center 20%}
+.case .cap{font-size:11.5px;color:var(--sub);margin-top:6px}
+.media{grid-template-columns:repeat(4,1fr)}
+.media figcaption small{display:block;color:var(--sub);font-size:11.5px;margin-top:2px}
+@media(max-width:900px){.case .side{flex-wrap:wrap}.case .side img,.case .side .ph{flex:1 1 45%;height:150px}}
 </style>
 </head>
 <body>
 
 <header class="top"><div class="wrap">
- <div class="brand">조훈희 박사<small>부동산 코칭 솔루션</small></div>
- <a class="btn primary sm" href="#apply">코칭 신청</a>
+ <a class="brand" href="#top"><img src="assets/planet_logo.png" alt="부동산플래닛"><span class="x">자산전략센터</span>조훈희 박사</a>
+ <nav class="menu"><a href="#course">과정</a><a href="#curriculum">커리큘럼</a><a href="#cases">실적</a><a href="#reviews">후기</a><a href="#coaching">1:1 코칭</a><a href="#faq">FAQ</a></nav>
+ <a class="btn gold sm" href="#apply">교육 신청</a>
 </div></header>
 
-<section class="hero"><div class="wrap">
- <div class="chips">
-  <span class="chip">공실문제 해결</span><span class="chip">적정가격 검토</span><span class="chip">가치향상 방법</span><span class="chip">임대관리 개선</span>
+<section class="hero" id="top"><div class="bg"><img src="assets/lecture9/hero_bg.jpg" alt=""></div><div class="wrap">
+ <div class="side">REAL ESTATE ASSET STRATEGY · SINCE 2009</div>
+ <div>
+  <div class="kicker"><img src="assets/planet_logo.png" alt="부동산플래닛">부동산플래닛 자산전략센터 조훈희 박사 · 상업용 부동산 투자와 매각전략 4주 과정</div>
+  <h1><span style="white-space:nowrap">좋은 건물을 <em>싸게 사는 법</em>,</span><br><span style="white-space:nowrap">건물을 좋게 만들어</span> <em style="white-space:nowrap">비싸게 파는 법</em></h1>
+  <div class="rule"></div>
+  <p class="sub">건물 투자의 답은 결국 두 가지입니다.<br>좋은 지역을 아는 것보다 <b>얼마나 오를 지역과 건물인지 아는 것</b>,<br>그리고 <b>건물의 수익성을 높여서 비싸게 파는 것</b>.<br>AI 빅데이터와 20년 경험으로 검증된 방법을 실무형 전문가 조훈희 박사가 이름과 얼굴을 걸고 직접 강의합니다.</p>
  </div>
- <p class="kicker">🏢 건물주와 건물을 사려는 분을 위한 1:1 코칭</p>
- <h1>최소비용으로 건물의<br><em>가치를 높이는</em> 방법</h1>
- <p class="h1sub">적정한 건물 가치를 찾는 방법</p>
- <div class="promise">같은 건물도 <b>무엇을 보느냐에 따라</b> 값이 달라집니다</div>
- <div class="cred"><span>#실무형 부동산박사</span><span>#부동산플래닛 전문위원</span><span>#현대, CBRE, 코람코자산운용 근무</span><span>#빌딩임대 관리실무</span><span>#경력20년</span></div>
- <div class="ctas">
-  <a class="btn primary" href="#apply">1:1 코칭 신청 ›</a>
-  <a class="btn ghost" href="#class">온+오프라인 교육 보기</a>
- </div>
- <div class="hero-photo">
+ <div class="photo">
   <img src="assets/suit_bust.png" alt="조훈희 박사">
-  <div class="tag"><b>조훈희 전문위원</b><br>부동산학 박사 · 부동산플래닛</div>
+  <div class="cap"><b>조훈희</b><br>부동산학 박사 · 한양대학교 부동산융합대학원 겸임교수<br>부동산플래닛 자산전략센터 전문위원</div>
+ </div>
+</div>
+</section>
+<div class="trust"><div class="wrap">
+ <span><b>부동산학 박사</b>한양대 도시대학원 · 부동산융합대학원</span><span><b>겸임교수</b>한양대학교 부동산융합대학원 · 도시대학원</span><span><b>저서 8권</b>부동산·도시 관련 · 베스트셀러 · 대학교재</span><span><b>실무 20년</b>현대캐피탈 · CBRE · 코람코자산운용</span><span><b>강의 300회 이상</b>교육기관 · 대기업 · 지자체</span><span><b>컨설팅 100건 이상</b>기업 부동산 · 고액 자산가 컨설팅</span>
+</div></div>
+
+<div class="band"><img src="assets/lecture9/g01_stage.jpg" alt="강연 현장"><div class="t">사회초년생·은퇴예정자를 위한 부동산 재테크 특강 현장</div></div>
+
+<section class="sec" data-n="01"><div class="wrap">
+ <p class="eyebrow">Why this course</p>
+ <h2>익명으로 얼굴을 가리고<br>수강생에게 안 좋은 물건을 추천해서 뒷돈을 챙기는<br>얄팍한 강의와는 차원이 다릅니다</h2>
+ <p class="lead">건물주가 꿈인 분을 양성하거나, 중개법인이 수강생에게 물건을 떠넘기기 위한 교육이 아닙니다. 스스로 좋은 부동산을 판단하는 힘, 내 건물의 가치를 스스로 높이는 힘을 길러 드립니다. 각자의 상황에 맞춘 코칭으로 끝까지 함께합니다.</p>
+ <div class="three">
+  <div class="card"><div class="n">01</div><h3>이름과 얼굴을 걸었습니다.</h3><p>교수이자 박사, 20년 실무를 거친 실무형 전문가. 대학원 강단과 기업 교육에서 검증받은 강의를 그대로 합니다. 수료 후에도 1년간 직접 답변해 드립니다.</p></div>
+  <div class="card"><div class="n">02</div><h3>물건을 팔기 위한 강의가 아닙니다.</h3><p>물건 추천을 목적으로 강의하거나, 좋지 않은 물건을 팔거나 리모델링을 권유해 따로 수수료를 챙기는 일은 하지 않습니다. 여러 부동산 물건을 직접 보면서 검증하는 방법을 알려드립니다.</p></div>
+  <div class="card"><div class="n">03</div><h3>유명세가 아니라 근거로 말합니다.</h3><p>분위기나 확신에 기대어 판단을 이끌지 않습니다. 실거래가·등기·건축물대장·학술 연구로 검증된 숫자와, 제가 직접 사옥을 매각하고 공실을 채운 사례로 설명합니다.</p></div>
  </div>
 </div></section>
 
-<section style="padding-top:0"><div class="wrap">
- <div class="formula">
-  <div class="big">월세가 <em>100만원</em> 늘면<br>건물값은 약 <em>3억원</em> 오릅니다</div>
-  <div class="eq"><span>연 1,200만원</span><span>÷</span><span>매각 수익률 4%</span><span>=</span><span>3억원</span></div>
-  <p>건물은 "얼마를 버느냐"로 값이 매겨집니다. 그래서 공실 한 칸, 계약서 한 줄이 건물값을 억 단위로 움직입니다.<br>매각 수익률 4%는 설명을 위한 가정입니다. 지역과 건물에 따라 다릅니다.</p>
- </div>
- <div class="worries">
-  <div class="worry">"공실이 1년째인데<br>임대료를 내려야 하나요?"</div>
-  <div class="worry">"임차인이 25% 깎아 달래요.<br>안 들어주면 나간대요."</div>
-  <div class="worry">"지하 창고, 놀리는 땅,<br>그냥 두는 게 맞나요?"</div>
-  <div class="worry">"지금 팔면<br>제값을 받는 걸까요?"</div>
- </div>
-</div></section>
-
-<section id="cases" style="background:#fff7ef"><div class="wrap">
- <p class="eyebrow">BEFORE → AFTER</p>
- <h2>20년간 제가 직접 해온<br>부동산 실무로 보여드립니다</h2>
- <p class="lead">대기업 사옥과 은행 지점, 중형 빌딩의 임대·관리를 맡았을 때의 실제 기록입니다. 숫자는 계약서와 공문에 적힌 값입니다.</p>
-
- <div class="ba">
-
-  <article class="case">
-   <div class="head"><div class="no">CASE 01 · SC제일은행 지방 지점 사옥 (CBRE 근무 시절)</div><h3>엘리베이터 없는 1982년 건물,<br>빈 층에 임차인을 들였습니다</h3></div>
-   <div class="row">
-    <div class="b"><div class="lbl">BEFORE</div><div class="v">문의 16건, 대부분 "임차 불가"</div><div class="d">업종 제한, 작은 면적 분할 불가, 엘리베이터 없음</div></div>
-    <div class="arrow">→</div>
-    <div class="a"><div class="lbl">AFTER</div><div class="v">두 개 층 전대 추진</div><div class="d">3층 전체와 4층 일부. 4층 공실 103평 → 61평</div></div>
+<section class="sec" data-n="02" style="background:#fff;padding-top:0"><div class="wrap">
+ <p class="eyebrow">Two questions</p>
+ <h2>과정 전체가 두 가지 질문으로<br>짜여 있습니다</h2>
+ <p class="lead">기관 투자자가 쓰는 전문적인 운용 방법을 경험과 이론을 토대로 직접 설명해 드립니다. 아래는 4주 커리큘럼의 요약입니다.</p>
+ <div class="pillars">
+  <article class="pillar">
+   <div class="ph"><img src="assets/lecture9/g12_map.jpg" alt="매입 전략 강의"><div class="tag">PART I · ACQUISITION</div></div>
+   <div class="bd">
+    <h3>가치가 오를 건물을 싸게 사는 법</h3>
+    <p class="sub">매입 전략 — 가치가 오를 건물을 알아보고, 호가가 아닌 근거 있는 가격에 산다</p>
+    <ol>
+     <li><b>투자 범위와 목표 설정</b><span>투자금·대출 한도에 맞는 경쟁시장(용도·규모·입지)을 정한다</span></li>
+     <li><b>감정평가 3방식 교차 검증</b><span>수익환원법 · 거래사례비교법 · 원가법으로 적정가 범위를 잡는다</span></li>
+     <li><b>AI로 저평가 물건 찾기</b><span>부동산플래닛 AI 추정가·실거래 데이터로 시장가 대비 가치가 높은 물건을 선별한다</span></li>
+     <li><b>실사(Due Diligence)</b><span>법률(권리·계약) · 재무(렌트롤·비용) · 물리(건물 상태·위반) · 시장(임대 수요·경쟁)</span></li>
+     <li><b>매입 구조 설계</b><span>대출 활용(LTV·DSCR), 용도변경 가능성, 개인·법인 명의와 절세 전략</span></li>
+     <li><b>협상과 계약</b><span>호가의 근거를 검증해 협상가를 정하고, 특약으로 리스크를 막는다</span></li>
+    </ol>
    </div>
-   <p class="how"><b>무엇을 봤나</b> 문의마다 업종·면적·건물 조건을 따져 안 되는 이유를 먼저 기록하고, 조건이 맞는 사무실 임차인으로 좁혔습니다. 주변 시세 3건과 감정 임대료를 나란히 놓고 은행 내부 승인을 받을 근거를 만들었습니다.</p>
-   <div class="value"><span class="k">4층 빈 면적</span><span class="n">약 40% 감소</span></div>
   </article>
-
-
-  <article class="case">
-   <div class="head"><div class="no">CASE 02 · 삼성역 인근 중형 빌딩 4층 450평</div><h3>임차인이 나간 빈 층,<br>의향서 받고 8일 만에 계약했습니다</h3></div>
-   <div class="row">
-    <div class="b"><div class="lbl">BEFORE</div><div class="v">450평 통째로 공실</div><div class="d">임차인은 렌트프리 연 2개월 + 인테리어 기간 1개월 무상 요구</div></div>
-    <div class="arrow">→</div>
-    <div class="a"><div class="lbl">AFTER</div><div class="v">월 2,700만원, 5년 계약</div><div class="d">의무 기간 2년. 인테리어 무상은 렌트프리 안에 포함</div></div>
+  <article class="pillar">
+   <div class="ph"><img src="assets/lecture9/g10_two.jpg" alt="밸류업 전략 강의"><div class="tag">PART II · VALUE-UP &amp; EXIT</div></div>
+   <div class="bd">
+    <h3>건물의 가치를 높여서 비싸게 파는 법</h3>
+    <p class="sub">밸류업·매각 전략 — 운영으로 순수익을 만들고 제값에 판다</p>
+    <ol>
+     <li><b>렌트롤 정비로 실질 임대수익 바로잡기</b><span>계약서·입금·현장 일치, 렌트프리·전용률을 반영한 실질임대료 산정</span></li>
+     <li><b>효과적인 마케팅으로 공실 빨리 채우기</b><span>잠재 임차인 발굴, 면적 분할, 렌트프리·TI 설계, 앵커 임차인 유치</span></li>
+     <li><b>운영비 절감과 유휴공간 수익화</b><span>용역·관리비 재정비, 주차·옥상·지하 공간으로 순영업소득(NOI) 높이기</span></li>
+     <li><b>리모델링 여부 확인하고 투자수익 판단하기</b><span>공사비 회수기간과 매각가 상승폭을 비교해 할 공사와 안 할 공사를 가른다</span></li>
+     <li><b>매각 전략 수립과 실행</b><span>매각 시점·목표가·매수자 유형 설정 → 매각 자료집 준비 → 중개 방식 선택 → 협상과 잔금 정산</span></li>
+     <li><b>상권에 적합한 임차인 선정하기</b><span>상권의 유동인구·소비 구조와 맞는 업종·임차인을 골라야 오래 머물고 임대료 연체가 없다. 임차인 매출로 적정 임대료를 검증하는 기준</span></li>
+    </ol>
    </div>
-   <p class="how"><b>무엇을 봤나</b> 상대가 요구한 항목은 대부분 받고, <b>핵심 하나(무상 기간 중복)</b>만 조정했습니다. 렌트프리를 기간으로 줄지 단가로 줄지 현금흐름을 비교해 골랐습니다.</p>
-   <div class="value"><span class="k">연 3억 2,400만원 ÷ 수익률 4% 가정</span><span class="n">약 81억원</span></div>
-  </article>
-
-  <article class="case">
-   <div class="head"><div class="no">CASE 03 · 삼성역 인근 중형 빌딩 지하 1층 98평</div><h3>회사 창고로 쓰던 지하를<br>임대 공간으로 바꿨습니다</h3></div>
-   <div class="row">
-    <div class="b"><div class="lbl">BEFORE</div><div class="v">자체 창고, 수입 0원</div><div class="d">일부는 천장이 낮고 배관이 지나 사무실로 쓰기 어려움</div></div>
-    <div class="arrow">→</div>
-    <div class="a"><div class="lbl">AFTER</div><div class="v">월 임대료 405만원 + 관리비 231만원</div><div class="d">사무실 68평 + 창고 30평으로 나눠 임대</div></div>
-   </div>
-   <p class="how"><b>무엇을 봤나</b> 임차인은 단가를 깎아 달라고 했지만, 원한 것은 <b>월 총액</b>이었습니다. 쓰기 어려운 면적을 창고 단가로 나누니 월 입금액은 맞추면서 사무실 단가는 지켰습니다.</p>
-   <div class="value"><span class="k">연 임대료 약 4,870만원 ÷ 수익률 4% 가정</span><span class="n">약 12억원</span></div>
-  </article>
-
-  <article class="case">
-   <div class="head"><div class="no">CASE 04 · 삼성역 인근 중형 빌딩 5층 재계약</div><h3>"25% 깎아 주세요"<br>절반을 지켜냈습니다</h3></div>
-   <div class="row">
-    <div class="b"><div class="lbl">BEFORE</div><div class="v">월 322만원 인하 요구</div><div class="d">주변 빌딩 렌트프리 사례 8건을 들고 온 임차인</div></div>
-    <div class="arrow">→</div>
-    <div class="a"><div class="lbl">AFTER</div><div class="v">감소액 월 161만원으로</div><div class="d">평당 기준 임대료는 그대로, 렌트프리 연 1.5개월로 합의</div></div>
-   </div>
-   <p class="how"><b>무엇을 봤나</b> 단가를 내리면 다른 층 임차인들의 기준까지 무너집니다. 그래서 <b>명목 임대료는 지키고 렌트프리로</b> 답했고, 같은 건물의 최근 계약표를 근거로 차이를 반씩 좁혔습니다.</p>
-   <div class="value"><span class="k">지킨 임대료 연 약 1,930만원 ÷ 4% 가정</span><span class="n">약 4.8억원 방어</span></div>
   </article>
  </div>
- <p class="note">※ 건물값 환산은 연 임대수입을 매각 수익률(4%)로 나눈 설명용 계산이며, 실제 매각가가 아닙니다. 사례는 2009~2018년 기록이며, 임차인 이름과 세부 조건 일부는 가렸습니다.</p>
 </div></section>
 
-<section><div class="wrap">
- <p class="eyebrow">코칭 내용</p>
- <h2>건물에서 무엇을 봐야 하는지<br>하나씩 알려드립니다</h2>
- <p class="lead">전문적인 검토로 여러분들의 합리적인 투자 판단을 돕습니다.</p>
- <div class="points">
-  <div class="point"><div class="ic">📉</div><h4>실제 임대료</h4><p>표면 임대료가 아니라 렌트프리·전용률까지 넣은 '진짜 가격'으로 주변 건물과 비교합니다.</p></div>
-  <div class="point"><div class="ic">🚪</div><h4>공실과 숨은 면적</h4><p>비어 있는 층, 창고, 놀리는 땅. 임대할 수 있는 재고가 있는지 찾습니다.</p></div>
-  <div class="point"><div class="ic">📄</div><h4>계약서</h4><p>인상률, 중도해지, 무상 기간, 원상복구. 몇 년 뒤 매각가를 바꾸는 조항을 봅니다.</p></div>
-  <div class="point"><div class="ic">🧾</div><h4>비용 절감</h4><p>관리 용역비, 공사 견적, 부담금. 순수익을 깎는 비용을 단가로 다시 봅니다.</p></div>
-  <div class="point"><div class="ic">🏷️</div><h4>매각 수익률</h4><p>내 건물이 시장에서 몇 %에 팔리는지, 그 숫자가 0.1% 바뀌면 얼마가 움직이는지 계산합니다.</p></div>
-  <div class="point"><div class="ic">🧭</div><h4>향후 방향성</h4><p>보유, 개선 후 매각, 매각, 교체 중 지금 내 건물에 맞는 방향을 정리합니다.</p></div>
+<section data-n="03" class="sec dark"><div class="wrap">
+ <p class="eyebrow">Data × Field</p>
+ <h2>감이 아니라 데이터로 찾고,<br>데이터는 실무로 검증합니다</h2>
+ <p class="lead">부동산플래닛 빅데이터 플랫폼으로 시세·임대·노후도를 먼저 확인하고, 생성형 AI로 후보 물건을 추린 뒤, 20년 실무의 기준으로 검증합니다. 이 순서를 수업에서 직접 실습합니다.</p>
+ <div class="dstats">
+  <div><b>3,300만 건</b><span>토지·건물 실거래가</span></div>
+  <div><b>3,951만 건</b><span>토지대장</span></div>
+  <div><b>735만 동</b><span>건축물 정보</span></div>
+  <div><b>AI 추정가</b><span>토지·건물 자동평가(AVM)</span></div>
  </div>
-</div></section>
-
-<section style="background:#fff7ef"><div class="wrap">
- <p class="eyebrow">진행 순서</p>
- <h2>코칭은 이렇게 진행됩니다</h2>
- <div class="steps">
-  <div class="step"><h4>코칭 신청</h4><p>아래 신청서에 연락처와 고민을 남겨 주세요. 다음 영업일까지 연락드립니다.</p></div>
-  <div class="step"><h4>사전 질문과 자료 확인</h4><p>건물 위치(대략), 임대 현황, 고민을 미리 받아 공부 서류와 시세를 먼저 봅니다.</p></div>
-  <div class="step"><h4>1:1 코칭 60분</h4><p>대면 또는 화상으로 만나 위의 여섯 가지를 내 건물 숫자로 함께 봅니다.</p></div>
-  <div class="step"><h4>요약 보고서 전달</h4><p>무엇을 봤고, 결과가 어땠고, 그래서 무엇을 할지 한 장으로 정리해 드립니다.</p></div>
-  <div class="step"><h4>필요하면 정밀진단으로</h4><p>더 깊은 분석이 필요하면 정밀진단 리포트와 세무·법률·건축 전문가 연결로 이어집니다.</p></div>
+ <div class="dflow">
+  <figure><img src="assets/planet_app_10.png" alt="실거래가 조회"><h4>① 시세 확인</h4><p>주변 실거래가와 AI 추정가로 적정 가격대를 잡는다</p></figure>
+  <figure><img src="assets/planet_app_11.png" alt="지도 분석"><h4>② 입지·상권·노후도</h4><p>지도 위에서 상권, 노후도, 주변 거래를 함께 보고 임차 수요를 따진다</p></figure>
+  <figure><img src="assets/planet_app_12.png" alt="지역 분석"><h4>③ 검증과 전략</h4><p>공부 서류와 현장으로 검증하고 보유·개선·매각 중 방향을 정한다</p></figure>
  </div>
+ <p class="dnote">데이터 출처: 부동산플래닛 회사소개서(2025.10) 기준. 화면은 부동산플래닛 서비스 예시입니다.</p>
 </div></section>
 
-<section id="class"><div class="wrap">
- <p class="eyebrow">신청 안내</p>
- <h2>내 건물을 직접 볼지,<br>보는 법을 배울지 고르세요</h2>
- <div class="products">
-  <div class="prod main">
-   <span class="badge">1:1 코칭</span>
-   <h3>부동산 코칭 솔루션</h3>
-   <div class="price">110만원 <small style="font-size:14px;color:#6b6259">VAT 별도</small></div>
-   <p class="lead" style="font-size:14px">월 4명 한정</p>
+<section class="sec" data-n="04" id="course" style="background:#fff"><div class="wrap">
+ <p class="eyebrow">The Course</p>
+ <h2>상업용 부동산 투자와 매각전략<br>온라인 3주 과정(총 9시간) + 현장 실습 과정(1회 2시간+α)</h2>
+ <p class="lead">건물 하나에 집중해 압축했습니다. 사는 법(1~2주) → 고치고 파는 법(3주) → 현장에서 확인(4주). 매 회 실제 매매 사례와 부동산플래닛 데이터로 수업하고, 내 건물과 후보 물건에 바로 적용합니다.</p>
+ <div class="course">
+  <div id="curriculum">
+   <div class="weeks">
+    <div class="phase">PHASE 1 · 판단한다 — 좋은 건물을 싸게 사는 법</div>
+    <div class="wk"><div class="n">01<small>ONLINE</small></div><h4>건물값은 어떻게 매겨지고, 좋은 건물은 어디서 찾나 <span class="who">실습</span></h4><p>수익환원법·거래사례비교법·원가법, NOI와 Cap Rate, 월세 100만원이 건물값 3억이 되는 계산. 내 투자금에 맞는 경쟁시장 설정. 부동산플래닛 AI 추정가·실거래 데이터로 시장가 대비 가치가 높은 물건을 찾는 실습</p></div>
+    <div class="wk"><div class="n">02<small>ONLINE</small></div><h4>사기 전에 반드시 확인할 것 — 실사와 매입 구조 <span class="who">세무사 동석</span></h4><p>법률·재무·물리·시장 실사 체크리스트, 공부 서류 3종(등기·건축물대장·토지이용계획) 검증, 대출 활용(LTV·DSCR), 용도변경 검토, 개인·법인 명의와 절세 전략, 협상가 산정과 특약</p></div>
+    <div class="phase">PHASE 2 · 고치고 판다 — 건물을 좋게 만들어 비싸게 파는 법</div>
+    <div class="wk"><div class="n">03<small>ONLINE</small></div><h4>운영으로 가치를 올리고, 제값에 파는 법</h4><p>렌트롤 정비와 실질임대료, 효과적인 마케팅으로 공실 빨리 채우기, 운영비 절감과 유휴공간 수익화로 NOI 높이기, 리모델링 여부와 투자수익 판단, 매각 전략(시점·목표가·매각 자료집·중개 방식·계약과 잔금)</p></div>
+    <div class="phase">PHASE 3 · 현장에서 확인한다</div>
+    <div class="wk field"><div class="n">04<small>FIELD</small></div><h4>현장 실습 · 건물과 상권 보기, 내 건물 전략 발표</h4><p>같은 거리의 두 건물 비교 임장, 실제 매물 브리핑과 등급표 작성. 내 건물(또는 후보 물건) 전략서를 발표하고 1:1 피드백. 수료와 네트워크</p><div class="pic"><img src="assets/lecture9/field1.jpg" alt="현장 수업"></div></div>
+   </div>
+   <p class="dnote" style="color:var(--sub);margin-top:14px">※ 회차 제목과 순서는 개강 전 확정합니다. 세법·대출 규제는 수업일 기준 시행 법령으로 설명합니다.</p>
+  </div>
+  <aside class="offer">
+   <div class="name">상업용 부동산 투자와 매각전략 4주 과정</div>
+   <div class="meta">온라인 3주 과정(총 9시간) + 현장 실습 과정(1회 2시간+α) · 정원 12명 · 2027년 1월 말 개강 예정</div>
+   <div class="price">180만원<small>VAT 별도</small></div>
    <ul>
-    <li>내 건물(또는 살 건물) 숫자로 진행</li>
-    <li>사전 자료 검토 + 1:1 코칭 60분</li>
-    <li>요약 보고서 제공</li>
+    <li><span><b>1:1 코칭 1회 무료</b> (90만원 상당 · 전략 보고서 작성 별도)</span></li>
+    <li><span><b>수료 후 1년 AS</b> — 어떤 부동산 질문이든 조훈희 박사가 직접 답변</span></li>
+    <li><span><b>시중 물건 검증법</b> — 여러 물건을 직접 보면서 검증하는 방법</span></li>
+    <li><span><b>수강생 네트워크</b> — 건물주·실무자 모임</span></li>
+    <li><span>교재 제공 · 온라인 수업 다시보기 제공</span></li>
    </ul>
-   <a class="btn primary" href="#apply">코칭 신청하기 ›</a>
+   <a class="btn gold" href="#apply">교육 신청하고 결제하기 ›</a>
+   <p class="fine">결제 페이지로 이동합니다 · 현금 결제 및 세금계산서 발행은 별도 문의: contact@twohp.co.kr</p>
+  </aside>
+ </div>
+</div></section>
+
+<section class="sec" data-n="05"><div class="wrap">
+ <p class="eyebrow">After the course</p>
+ <h2>수업이 끝나도 1년간,<br>어떤 부동산 질문이든 제가 직접 답합니다</h2>
+ <p class="lead">전세 계약부터 경매 낙찰, 건물 매각까지. 지금도 수강생과 독자들의 질문에 하나하나 답하고 있습니다. 부동산 실전 전문가를 1년간 비서처럼 두세요.</p>
+ <div class="dm">
+  <img src="assets/reviews/dm_00.jpg" alt="질문 답변 기록" loading="lazy"><img src="assets/reviews/dm9_01.jpg" alt="질문 답변 기록" loading="lazy"><img src="assets/reviews/dm9_02.jpg" alt="질문 답변 기록" loading="lazy"><img src="assets/reviews/dm_03.jpg" alt="질문 답변 기록" loading="lazy"><img src="assets/reviews/dm_04.jpg" alt="질문 답변 기록" loading="lazy"><img src="assets/reviews/dm_05.jpg" alt="질문 답변 기록" loading="lazy"><img src="assets/reviews/dm9_06.jpg" alt="질문 답변 기록" loading="lazy"><img src="assets/reviews/dm_07.jpg" alt="질문 답변 기록" loading="lazy"><img src="assets/reviews/dm9_08.jpg" alt="질문 답변 기록" loading="lazy">
+ </div>
+ <p class="dnote" style="color:var(--sub)">실제 답변 기록입니다. 이름·아이디·개인 사정·금액은 가렸습니다.</p>
+ </div></section>
+
+<section class="sec" data-n="06" id="cases" style="background:#fff"><div class="wrap">
+ <p class="eyebrow">Track record</p>
+ <h2>실무와 이론을 융합해<br>최적의 솔루션을 드립니다</h2>
+ <p class="lead">대기업 사옥 관리부터 자산운용사 사모펀드 운용까지 20년. 현장에서 풀어낸 문제를 논문으로 증명했고, 그 논문이 상을 받았습니다. 그래서 다른 강의와 차원이 다릅니다.</p>
+ <div class="cases">
+  <article class="case" data-k="01">
+   <div>
+    <div class="no">CASE 01 · STX그룹 본사 사옥</div>
+    <h3>STX그룹 본사 사옥의 임대·관리·매각을 맡았습니다</h3>
+    <p>그룹 총무팀에서 본사 사옥의 임대와 시설 관리를 맡았고, 사옥 매각을 진행했습니다. 지하 4층~지상 8층, 연면적 약 6,751평 규모의 사옥은 2015년 다른 기업에 매각되었습니다.</p>
+   </div>
+   <div class="side">
+    <div class="res"><div class="k">매각 예정가 → 실제 매각가</div><div class="up"><span class="a">500억원</span><span>→</span><span class="b">560억원</span><span class="g">+60억 UP</span></div><div class="d">2015 · 매각가는 언론 보도 기준</div></div>
+    <img src="assets/cases/stx_sign.jpg" alt="STX 사옥">
+   </div>
+  </article>
+  <article class="case" data-k="02">
+   <div>
+    <div class="no">CASE 02 · 전국 100여 개 빌딩 관리</div>
+    <h3>안 팔리던 빌딩을 6개월 안에 팔았습니다</h3>
+    <p>오래된 건물의 가치를 높이고 임차인을 들인 다음 높은 값에 팔았습니다. 지역에 맞는 임차인 물색, 맞춤형 적극 마케팅, 최소 비용으로 건물의 가치를 높이는 노하우. 이 경험을 연구로 써서 한국부동산연구원 우수논문상을 받았습니다.</p>
+   </div>
+   <div class="side">
+    <div class="res"><div class="k">결과</div><div class="v">6개월 내 매각</div><div class="d">가치 향상 → 임차인 유치 → 매각</div></div>
+    <div class="medal"><svg width="38" height="38" viewBox="0 0 38 38"><circle cx="19" cy="22" r="13" fill="#d8b25a"/><circle cx="19" cy="22" r="9" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M12 2h5l2 7-5 2zM26 2h-5l-2 7 5 2z" fill="#b23b3b"/></svg><div><b>한국부동산연구원 우수논문상</b><span>2021 · 서울시 오피스 TI 연구</span></div></div>
+    <img src="assets/cases/sc_cheil.jpg" alt="SC제일은행 본점">
+   </div>
+   <p class="cap">SC제일은행 종각 본점 사진: Wikimedia Commons, 밥풀떼기, CC BY-SA 4.0</p>
+  </article>
+  <article class="case" data-k="03">
+   <div>
+    <div class="no">CASE 03 · SC제일은행 광주 금남로 빌딩</div>
+    <h3>임대료를 내리지 않고 공실을 5% 이하로 만들었습니다</h3>
+    <p>팔지 않는 건물이었습니다. 임대료를 낮추는 대신 최고 수익 시뮬레이션으로 임차 구성을 다시 짰고, 공실 50% 이상을 5% 이하로 만들었습니다. 이 분석이 국토교통부 부동산산업의 날 우수논문상을 받았습니다.</p>
+   </div>
+   <div class="side">
+    <div class="res"><div class="k">공실률</div><div class="v">50%+ → 5% 이하</div><div class="d">임대료 인하 없이 · 수익 시뮬레이션 기반</div></div>
+    <div class="medal"><svg width="38" height="38" viewBox="0 0 38 38"><circle cx="19" cy="22" r="13" fill="#d8b25a"/><circle cx="19" cy="22" r="9" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M12 2h5l2 7-5 2zM26 2h-5l-2 7 5 2z" fill="#1d2b4a"/></svg><div><b>부동산산업의 날 우수논문상</b><span>2017 · 국토교통부</span></div></div>
+    <img src="assets/cases/office_empty.jpg" alt="사무실"><img src="assets/cases/award_speech.jpg" alt="우수논문상 발표">
+   </div>
+  </article>
+  <article class="case" data-k="04">
+   <div>
+    <div class="no">CASE 04 · 주변 임차인 분석</div>
+    <h3>면적을 잘라 공실을 채우고, 수익을 30% 이상 올렸습니다</h3>
+    <p>주변 임차인의 수요를 분석해 면적을 나눴습니다. 회사 창고로 쓰던 지하 98평을 사무실 68평 + 창고 30평으로 나눠 임대해, 수입 0원이던 공간에서 월 임대료 405만원과 관리비 231만원을 만들었습니다. 임차인이 원한 것은 단가가 아니라 월 총액이었습니다.</p>
+   </div>
+   <div class="side">
+    <div class="res"><div class="k">수익</div><div class="v">+30% 이상</div><div class="d">공실 해소 · 단가는 지키고 총액을 맞춤</div></div>
+   </div>
+  </article>
+  <article class="case" data-k="05">
+   <div>
+    <div class="no">CASE 05 · 임대료 인하 요구와 이전 희망 임차인</div>
+    <h3>임대인과 임차인이 모두 만족하는 합의안을 냈습니다</h3>
+    <p>"25% 깎아 달라, 아니면 나가겠다." 주변 시세 분석과 이전 비용 분석을 양쪽 숫자로 놓고 협의했습니다. 명목 임대료는 지키고 렌트프리로 답해, 월 322만원 인하 요구를 161만원 수준에서 합의했습니다. 다른 층의 임대료 기준도 지켰습니다.</p>
+   </div>
+   <div class="side">
+    <div class="res"><div class="k">인하 요구</div><div class="v">322만 → 161만원</div><div class="d">명목 임대료 유지 · 렌트프리 연 1.5개월</div></div>
+   </div>
+  </article>
+ </div>
+ <div class="fusion">
+  <div class="serif">실무에서 푼 문제를 이론으로 증명하고,<br>이론을 다시 실무로 가져옵니다.</div>
+  <p>STX·CBRE·코람코자산운용에서 사옥 관리, 임대, 펀드 운용을 했고, 그 기록으로 석사·박사 논문을 썼습니다. 수업에서는 그 두 가지를 한 번에 드립니다. 사례의 숫자는 계약서와 공문에 적힌 값이며, 임차인 이름과 세부 조건 일부는 가렸습니다.</p>
+ </div>
+</div></section>
+
+<section class="sec" data-n="07" id="reviews"><div class="wrap">
+ <p class="eyebrow">Reviews</p>
+ <h2>실제 익명으로 받은 강의 평가입니다</h2>
+ <div class="rstats">
+  <div><b>99 / 100 · A+</b><span>대학원 강의평가 최고 등급</span></div>
+  <div><b>약 1,000명 이상</b><span>2023~현재 강의평가 참여 원우</span></div>
+ </div>
+ <div class="quotes">
+  <div class="q">실제 사례에서 나오는 강의이므로 최고의 강의였음. 타 강의에서 듣지 못하는 접근 방법과 사례를 제시해서 실무적으로 좋았음. 교수님 타 강의를 추가 수강 신청할 예정임.<span class="who">부동산투자사례분석</span></div>
+  <div class="q">만들어 주시는 교안 또한 저희 회사 신입직원 교육용 자료로 사용해도 될 정도로 실무에서 중요하게 강조하는 내용이 많이 담겨 있었습니다.<span class="who">현업 종사자 · 대학원 수강생</span></div>
+  <div class="q">최고의 강의. 매 학기 듣고 싶습니다. 고퀄의 지식 외에 삶의 태도도 배움.<span class="who">대학원 수강생</span></div>
+  <div class="q">교수님의 실전투자 노하우를 아낌없이 공유해 주셔서 흥미진진하게 매주 수업을 들었습니다. 부동산 수익률 분석 방법이 특히 도움이 많이 되었습니다.<span class="who">부동산투자사례분석</span></div>
+  <div class="q">실제 투자를 위해서 찾아봐야 하는 자료들을 하나하나 알려주셔서 정말 도움이 많이 되었습니다.<span class="who">대학원 수강생</span></div>
+  <div class="q">전반적으로 너무 좋은 수업이었습니다. 외부에서 듣기 힘든 수업입니다.<span class="who">대학원 수강생</span></div>
+  <div class="q">교수님 개인의 경험과 이론을 적절하게 배합하여 수업을 진행해 주시고, 몰입도 있는 강의로 유익한 시간을 보낼 수 있었음.<span class="who">대학원 수강생</span></div>
+  <div class="q">천리길도 한걸음부터라는 말이 있듯이 교수님의 명쾌한 강의를 들으면서 한걸음 한걸음씩 나아가는 방법을 배웠습니다. 한 학기 동안 명강의를 해주셔서 감사합니다.<span class="who">부동산투자실무</span></div>
+  <div class="q">부융원 최고의 수업! 또 듣고 싶습니다. 아주 알차고 재밌어요.<span class="who">부동산투자실무</span></div>
+    <div class="q">세무사 등 다양한 전문가를 수업 시간에 직접 초청해 모르는 부분을 알 수 있게 해 주셔서 좋았습니다.<span class="who">부동산투자실무</span></div>
+  <div class="q">열정적으로 강의하셔서 목이 아프시겠어요.<span class="who">대학원 수강생</span></div>
+ </div>
+</div></section>
+
+<section class="sec" data-n="08" style="background:#fff"><div class="wrap">
+ <p class="eyebrow">On stage · On air</p>
+ <h2>대학원 강단에서, 기업과 기관에서,<br>그리고 방송에서</h2>
+ <p class="lead">녹화 영상만 파는 수업이 아닙니다. 지금도 강의실에서 하는 수업을 그대로 옮깁니다.</p>
+ <div class="gal">
+  <figure class="w2 h2"><img src="assets/lecture9/g01_stage.jpg" alt="" loading="lazy"></figure>
+  <figure><img src="assets/lecture9/g02_expo.jpg" alt="" loading="lazy"></figure>
+  <figure class="h2"><img src="assets/lecture9/g03_convention.jpg" alt="" loading="lazy"></figure>
+  <figure><img src="assets/lecture9/g04_hanyang.jpg" alt="" loading="lazy"></figure>
+  <figure><img src="assets/lecture9/g11_crowd.jpg" alt="" loading="lazy"></figure>
+  <figure><img src="assets/lecture9/g06_ceo.jpg" alt="" loading="lazy"></figure>
+  <figure><img src="assets/lecture9/g07_seoul.jpg" alt="" loading="lazy"></figure>
+  <figure><img src="assets/lecture9/g08_kongju.jpg" alt="" loading="lazy"></figure>
+  <figure class="w2"><img class="top" src="assets/lecture9/g09_gangnam.jpg" alt="" loading="lazy"></figure>
+  <figure><img src="assets/lecture9/g12_map.jpg" alt="" loading="lazy"></figure>
+  <figure><img src="assets/lecture9/g10_two.jpg" alt="" loading="lazy"></figure>
+ </div>
+ <div class="chips"><div class="trk"><span class="h">대학</span><span>한양대 부동산융합대학원</span><span>한양대 도시대학원</span><span>한양대 ERICA</span><span>동국대 행정대학원</span><span>국립공주대</span><span>국립목포대</span><span>한림대</span><span>숭실사이버대</span><span>열린사이버대</span><span>한국방송통신대</span><span>서울벤처대학원대</span><span class="h">대학</span><span>한양대 부동산융합대학원</span><span>한양대 도시대학원</span><span>한양대 ERICA</span><span>동국대 행정대학원</span><span>국립공주대</span><span>국립목포대</span><span>한림대</span><span>숭실사이버대</span><span>열린사이버대</span><span>한국방송통신대</span><span>서울벤처대학원대</span></div></div>
+ <div class="chips"><div class="trk"><span class="h">기업</span><span>삼성물산</span><span>삼성엔지니어링</span><span>삼성화재</span><span>신한금융그룹</span><span>우리금융그룹</span><span>미래에셋증권</span><span>SK증권</span><span>롯데백화점 MVG</span><span>신세계</span><span>갤러리아</span><span>파라다이스</span><span>메이트플러스</span><span>TS대한제당</span><span class="h">기업</span><span>삼성물산</span><span>삼성엔지니어링</span><span>삼성화재</span><span>신한금융그룹</span><span>우리금융그룹</span><span>미래에셋증권</span><span>SK증권</span><span>롯데백화점 MVG</span><span>신세계</span><span>갤러리아</span><span>파라다이스</span><span>메이트플러스</span><span>TS대한제당</span></div></div>
+ <div class="chips"><div class="trk"><span class="h">기관</span><span>한국자산관리공사</span><span>강남구청</span><span>서울시</span><span>서울시 중구</span><span>울산시</span><span>인천시</span><span>안산시</span><span>양주시</span><span>한국문학번역원</span><span>서울건축박람회</span><span>코리아빌드</span><span class="h">기관</span><span>한국자산관리공사</span><span>강남구청</span><span>서울시</span><span>서울시 중구</span><span>울산시</span><span>인천시</span><span>안산시</span><span>양주시</span><span>한국문학번역원</span><span>서울건축박람회</span><span>코리아빌드</span></div></div>
+ <div class="media">
+  <figure><img src="assets/media/sbs_loan_2.jpg" alt="SBS 모닝와이드" loading="lazy"><figcaption><b>SBS 모닝와이드</b>'주담대 8% 공포, 이자 폭탄 비상' 전문가 인터뷰</figcaption></figure>
+  <figure><img src="assets/media/sbs_newstory_1.jpg" alt="SBS 뉴스토리" loading="lazy"><figcaption><b>SBS 뉴스토리</b>조기 경제교육 편 · 자녀와 함께한 현장 임장</figcaption></figure>
+    <figure><img src="assets/lecture/tv_studio.jpg" alt="방송 스튜디오" loading="lazy"><figcaption><b>TV · 유튜브</b>다양한 TV 및 부동산 유튜브 채널 출연</figcaption></figure>
+  <figure><img src="assets/media/news_sedaily.jpg" alt="서울경제 인터뷰" loading="lazy"><figcaption><b>서울경제신문 · 2026.7.17</b>"성수동의 성공은 자율성 덕분… 임대차법 규제가 되레 침체 불러"<small>한양대 도시·부동산융합대학원 겸임교수 인터뷰</small></figcaption></figure>
+  <figure><img src="assets/media/news_donga.jpg" alt="동아일보 인터뷰" loading="lazy"><figcaption><b>동아일보 · 2026.5.22</b>"내 집을 찾는 과정, 나를 찾아가는 과정과 비슷"<small>저자 인터뷰</small></figcaption></figure>
+  <figure><img src="assets/media/news_kmib_2025_08.jpg" alt="국민일보 인터뷰" loading="lazy"><figcaption><b>국민일보 · 2025.8.25</b>"핫플은 이벤트가 만들고 상권은 체류와 일상이 완성"<small>한양대 부동산융합대학원 교수 인터뷰</small></figcaption></figure>
+  <figure><img src="assets/media/news_kmib_2025_03.jpg" alt="국민일보 인터뷰" loading="lazy"><figcaption><b>국민일보 · 2025.3.28</b>"빈집 증가는 시대적 흐름… 바뀐 환경 맞게 공간 재창출해야"<small>한양대 부동산융합대학원 겸임교수 인터뷰</small></figcaption></figure>
+ </div>
+ <div class="chips"><div class="trk"><span class="h">출연 채널</span><span>후랭이TV</span><span>동산이형의 부동산 수다</span><span>스마트튜브(스튜TV)</span><span>웅달 책방</span><span>머니판다 - 돈에 대한 모든 것을 판다</span><span>재테크는 두꺼비 세무사</span><span>부티플 - 부의 배수를 높여라</span><span>채널 제네시스박</span><span>KB부동산TV</span><span>오늘의 경제노트</span><span>매일경제 자이언트TV</span><span>북극성주TV</span><span>사이다경제</span><span class="h">출연 채널</span><span>후랭이TV</span><span>동산이형의 부동산 수다</span><span>스마트튜브(스튜TV)</span><span>웅달 책방</span><span>머니판다 - 돈에 대한 모든 것을 판다</span><span>재테크는 두꺼비 세무사</span><span>부티플 - 부의 배수를 높여라</span><span>채널 제네시스박</span><span>KB부동산TV</span><span>오늘의 경제노트</span><span>매일경제 자이언트TV</span><span>북극성주TV</span><span>사이다경제</span></div></div>
+ <div class="yt"><div class="trk"><figure><img src="assets/yt/0FifdULW6-M.jpg" alt="" loading="lazy"><figcaption><b>후랭이TV</b>아파트 소액 투자로 월급 받는 방법ㅣ조훈희 1부 [후랭이TV]</figcaption></figure><figure><img src="assets/yt/qfmu6iAr28k.jpg" alt="" loading="lazy"><figcaption><b>후랭이TV</b>월세 받는 아파트 찾는 방법ㅣ조훈희 1부 [후랭이TV]</figcaption></figure><figure><img src="assets/yt/NXAnuB6GTlA.jpg" alt="" loading="lazy"><figcaption><b>동산이형의 부동산 수다</b>‘이런’ 아파트 사면 죽을 때까지 걱정 없습니다. (동산이형 초대석 | 조훈</figcaption></figure><figure><img src="assets/yt/IYsGhcwg-ko.jpg" alt="" loading="lazy"><figcaption><b>동산이형의 부동산 수다</b>“갭투자 불가 시대” 노후에 월세 받고 싶으면 ‘이렇게’ 하세요 (동산이형 </figcaption></figure><figure><img src="assets/yt/KjiX1Iq48EQ.jpg" alt="" loading="lazy"><figcaption><b>스마트튜브(스튜TV)</b>(조훈희 박사) 월세의 시대! 이제 월세 수익형 부동산에 투자해야 한다!</figcaption></figure><figure><img src="assets/yt/1Cvre0Yxlr8.jpg" alt="" loading="lazy"><figcaption><b>스마트튜브(스튜TV)</b>(한양대학교 조훈희 교수님)"부동산 투자로 얼마를 벌 수 있을까?"수익을 알</figcaption></figure><figure><img src="assets/yt/ugf-VhuIeco.jpg" alt="" loading="lazy"><figcaption><b>웅달 책방</b>언론도 말해주지 않습니다 9월 부동산 아수라장 될 겁니다 (조훈희 박사 / </figcaption></figure><figure><img src="assets/yt/Y40nArVxUqg.jpg" alt="" loading="lazy"><figcaption><b>웅달 책방</b>"농사꾼들 싹 다 사라진다 다음달부터 무서운 일 터지나 (부동산 특집 / 안</figcaption></figure><figure><img src="assets/yt/bFX4Idp2fzQ.jpg" alt="" loading="lazy"><figcaption><b>머니판다 - 돈에 대한 모든 것을 판다</b>추석 이후 곡소리 날 겁니다. 무주택 1주택 이렇게 하세요 (조훈희 교수 2</figcaption></figure><figure><img src="assets/yt/OQ2gnDmCaTw.jpg" alt="" loading="lazy"><figcaption><b>머니판다 - 돈에 대한 모든 것을 판다</b>요즘 서울 대표 상권도 처참히 무너지는 이유 (조훈희 교수 3부)</figcaption></figure><figure><img src="assets/yt/59GQ1QBHyOc.jpg" alt="" loading="lazy"><figcaption><b>재테크는 두꺼비 세무사</b>"집 산 사람만 하루아침에 날벼락 맞았다" 이제는 집 팔고 싶어도 못 팔아요</figcaption></figure><figure><img src="assets/yt/cp8efDU1cPc.jpg" alt="" loading="lazy"><figcaption><b>재테크는 두꺼비 세무사</b>"집 산 사람만 날벼락 맞았다" 앞으로 집 팔고 싶어도 못판다. 영끌족 줄줄</figcaption></figure><figure><img src="assets/yt/85EQiVdUKPA.jpg" alt="" loading="lazy"><figcaption><b>부티플 - 부의 배수를 높여라</b>"30평 아파트는 끝났다?" 신축 말고 이런 구축 사세요 | 조훈희 교수 2</figcaption></figure><figure><img src="assets/yt/zg83z6rdkec.jpg" alt="" loading="lazy"><figcaption><b>채널 제네시스박</b>아파트 월세 투자? 이렇게 하면 소액으로도 가능합니다! (오늘부터 월급은 부</figcaption></figure><figure><img src="assets/yt/ClpeOmGff_c.jpg" alt="" loading="lazy"><figcaption><b>KB부동산TV</b>전세 소멸과 월세 시대의 서막, 지금 갭투자를 조심해야 하는 이유 (조훈희 </figcaption></figure><figure><img src="assets/yt/gL30XIi5lGs.jpg" alt="" loading="lazy"><figcaption><b>KB부동산TV</b>"더 기다릴까요? 지금 살까요?” 무주택자를 위한 최고의 선택, 다음 상승지</figcaption></figure><figure><img src="assets/yt/876AvbzRpMc.jpg" alt="" loading="lazy"><figcaption><b>오늘의 경제노트</b>사지도 팔지도 못하는 부동산 시장. 추석 이후 역대급 폭풍 온다 (조훈희 교</figcaption></figure><figure><img src="assets/yt/WAj7xcNiVIs.jpg" alt="" loading="lazy"><figcaption><b>오늘의 경제노트</b>추석 이후 곡소리 날 겁니다. 무주택 1주택 이렇게 하세요 (조훈희 교수 2</figcaption></figure><figure><img src="assets/yt/0FifdULW6-M.jpg" alt="" loading="lazy"><figcaption><b>후랭이TV</b>아파트 소액 투자로 월급 받는 방법ㅣ조훈희 1부 [후랭이TV]</figcaption></figure><figure><img src="assets/yt/qfmu6iAr28k.jpg" alt="" loading="lazy"><figcaption><b>후랭이TV</b>월세 받는 아파트 찾는 방법ㅣ조훈희 1부 [후랭이TV]</figcaption></figure><figure><img src="assets/yt/NXAnuB6GTlA.jpg" alt="" loading="lazy"><figcaption><b>동산이형의 부동산 수다</b>‘이런’ 아파트 사면 죽을 때까지 걱정 없습니다. (동산이형 초대석 | 조훈</figcaption></figure><figure><img src="assets/yt/IYsGhcwg-ko.jpg" alt="" loading="lazy"><figcaption><b>동산이형의 부동산 수다</b>“갭투자 불가 시대” 노후에 월세 받고 싶으면 ‘이렇게’ 하세요 (동산이형 </figcaption></figure><figure><img src="assets/yt/KjiX1Iq48EQ.jpg" alt="" loading="lazy"><figcaption><b>스마트튜브(스튜TV)</b>(조훈희 박사) 월세의 시대! 이제 월세 수익형 부동산에 투자해야 한다!</figcaption></figure><figure><img src="assets/yt/1Cvre0Yxlr8.jpg" alt="" loading="lazy"><figcaption><b>스마트튜브(스튜TV)</b>(한양대학교 조훈희 교수님)"부동산 투자로 얼마를 벌 수 있을까?"수익을 알</figcaption></figure><figure><img src="assets/yt/ugf-VhuIeco.jpg" alt="" loading="lazy"><figcaption><b>웅달 책방</b>언론도 말해주지 않습니다 9월 부동산 아수라장 될 겁니다 (조훈희 박사 / </figcaption></figure><figure><img src="assets/yt/Y40nArVxUqg.jpg" alt="" loading="lazy"><figcaption><b>웅달 책방</b>"농사꾼들 싹 다 사라진다 다음달부터 무서운 일 터지나 (부동산 특집 / 안</figcaption></figure><figure><img src="assets/yt/bFX4Idp2fzQ.jpg" alt="" loading="lazy"><figcaption><b>머니판다 - 돈에 대한 모든 것을 판다</b>추석 이후 곡소리 날 겁니다. 무주택 1주택 이렇게 하세요 (조훈희 교수 2</figcaption></figure><figure><img src="assets/yt/OQ2gnDmCaTw.jpg" alt="" loading="lazy"><figcaption><b>머니판다 - 돈에 대한 모든 것을 판다</b>요즘 서울 대표 상권도 처참히 무너지는 이유 (조훈희 교수 3부)</figcaption></figure><figure><img src="assets/yt/59GQ1QBHyOc.jpg" alt="" loading="lazy"><figcaption><b>재테크는 두꺼비 세무사</b>"집 산 사람만 하루아침에 날벼락 맞았다" 이제는 집 팔고 싶어도 못 팔아요</figcaption></figure><figure><img src="assets/yt/cp8efDU1cPc.jpg" alt="" loading="lazy"><figcaption><b>재테크는 두꺼비 세무사</b>"집 산 사람만 날벼락 맞았다" 앞으로 집 팔고 싶어도 못판다. 영끌족 줄줄</figcaption></figure><figure><img src="assets/yt/85EQiVdUKPA.jpg" alt="" loading="lazy"><figcaption><b>부티플 - 부의 배수를 높여라</b>"30평 아파트는 끝났다?" 신축 말고 이런 구축 사세요 | 조훈희 교수 2</figcaption></figure><figure><img src="assets/yt/zg83z6rdkec.jpg" alt="" loading="lazy"><figcaption><b>채널 제네시스박</b>아파트 월세 투자? 이렇게 하면 소액으로도 가능합니다! (오늘부터 월급은 부</figcaption></figure><figure><img src="assets/yt/ClpeOmGff_c.jpg" alt="" loading="lazy"><figcaption><b>KB부동산TV</b>전세 소멸과 월세 시대의 서막, 지금 갭투자를 조심해야 하는 이유 (조훈희 </figcaption></figure><figure><img src="assets/yt/gL30XIi5lGs.jpg" alt="" loading="lazy"><figcaption><b>KB부동산TV</b>"더 기다릴까요? 지금 살까요?” 무주택자를 위한 최고의 선택, 다음 상승지</figcaption></figure><figure><img src="assets/yt/876AvbzRpMc.jpg" alt="" loading="lazy"><figcaption><b>오늘의 경제노트</b>사지도 팔지도 못하는 부동산 시장. 추석 이후 역대급 폭풍 온다 (조훈희 교</figcaption></figure><figure><img src="assets/yt/WAj7xcNiVIs.jpg" alt="" loading="lazy"><figcaption><b>오늘의 경제노트</b>추석 이후 곡소리 날 겁니다. 무주택 1주택 이렇게 하세요 (조훈희 교수 2</figcaption></figure></div></div>
+</div></section>
+
+<section class="sec shelf" data-n="09"><div class="wrap">
+ <p class="eyebrow">Books</p>
+ <h2>부동산·도시 관련 저서 8권</h2>
+ <p class="lead">가르친 것을 책으로 썼고, 쓴 것을 다시 가르칩니다. 이번 과정의 교재가 되는 『내 건물, 제값 받고 파는 법』(가제)을 집필 중입니다.</p>
+ <div class="books">
+  <div class="book"><div class="cv"><img src="assets/books/b_seongsu.jpg" alt="성수동의 시대"><span class="bd">베스트<br>셀러</span></div><h4>성수동의 시대</h4><span>한스미디어 · 2026</span></div>
+  <div class="book"><div class="cv"><img src="assets/books/b_burin.jpg" alt="부린 왕자"><span class="bd">베스트<br>셀러</span></div><h4>부린 왕자</h4><span>오아시스 · 2026</span></div>
+  <div class="book"><div class="cv"><img src="assets/books/b_salary.jpg" alt="오늘부터 월급은 부동산으로 받습니다"><span class="bd">베스트<br>셀러</span></div><h4>오늘부터 월급은 부동산으로 받습니다</h4><span>길벗 · 2026</span></div>
+  <div class="book"><div class="cv"><img src="assets/books/b_city.jpg" alt="도시의 이해"><span class="bd navy">대학<br>교재</span></div><h4>도시의 이해 <small>(공저)</small></h4><span>방송대출판문화원 · 2026</span></div>
+  <div class="book"><div class="cv"><img src="assets/books/b_dad.jpg" alt="아빠, 부동산이 뭐예요?"><span class="bd">베스트<br>셀러</span></div><h4>아빠, 부동산이 뭐예요?</h4><span>프롬북스 · 2024</span></div>
+  <div class="book"><div class="cv"><img src="assets/books/b_farm.jpg" alt="부동산 투자, 농사짓듯 하라"><span class="bd">베스트<br>셀러</span></div><h4>부동산 투자, 농사짓듯 하라</h4><span>체인지업 · 2023</span></div>
+  <div class="book"><div class="cv"><img src="assets/books/b_babbeoli.jpg" alt="밥벌이의 이로움"><span class="bd">베스트<br>셀러</span></div><h4>밥벌이의 이로움</h4><span>프롬북스 · 2021</span></div>
+  <div class="book"><div class="cv"><img src="assets/books/b_taiwan.jpg" alt="대만 번역판"><span class="bd tw">해외<br>출간</span></div><h4>밥벌이의 이로움 (대만판)</h4><span>遠流 · 2022</span></div>
+ </div>
+ </div></section>
+
+<section class="sec" data-n="10" id="coaching" style="background:#fff"><div class="wrap">
+ <p class="eyebrow">1:1 Coaching</p>
+ <h2>1:1 맞춤형 부동산 전문 코칭</h2>
+ <p class="lead">4주 과정을 모두 듣기에 시간이 부족한 분들을 위해 만들었습니다. 코칭 후에도 계속 스터디할 수 있도록 전략 보고서를 드립니다. 교육 수강생은 1회 무료입니다. (전략 보고서 작성 별도)</p>
+ <div class="coach">
+  <ol class="flow">
+   <li><h4>사전 면담</h4><p>전화나 화상으로 현재 겪고 계신 문제와 보유 자료(등기·대장·임대차계약·호가 자료)를 확인합니다.</p></li>
+   <li><h4>자료 분석</h4><p>실거래·AI 추정가·비교거래, 렌트롤과 실질임대료, 공부 서류를 사전에 검토합니다.</p></li>
+   <li><h4>코칭</h4><p>대면 또는 화상. 자료 분석 결과를 현실에 적용할 수 있도록 알기 쉽게 설명하고 솔루션을 드립니다.</p></li>
+   <li><h4>전략 보고서</h4><p>검토 내용과 분석 결과, 실행 방안을 보고서로 정리해 드립니다. 이후에도 계속 참고하며 스터디할 수 있습니다.</p></li>
+   <li><h4>전문적 실행이 필요한 경우</h4><p>검증된 중개·세무·법률·건축 전문가를 연결합니다.</p></li>
+  </ol>
+  <div>
+   <div class="offer" style="position:static">
+    <div class="name">부동산 1:1 코칭</div>
+    <div class="meta">사전 면담 → 자료 분석 → 코칭 → 전략 보고서</div>
+    <div class="price">90만원<small>VAT 별도 · 보고서 포함</small></div>
+    <ul>
+     <li><span>내 건물(또는 살 건물)의 숫자로 진행</span></li>
+     <li><span>검토 중인 물건의 시장 가치 검증 · 적정 매입가 범위와 협상 근거</span></li>
+     <li><span>보유 건물의 가치 상승 방법과 매각 시점</span></li>
+     <li><span><b>교육 수강생은 1회 무료</b> (전략 보고서 작성 별도)</span></li>
+    </ul>
+    <a class="btn gold" href="https://forms.gle/zhRXi1NrAvXurkvd8" target="_blank" rel="noopener">코칭 신청서 작성하기 ›</a>
+    <p class="fine">코칭은 시간 관계상 월 4회 한정으로 진행합니다.<br>신청하신 메일이나 전화번호로 조훈희 박사가 직접 연락드립니다.</p>
+   </div>
   </div>
-  <div class="prod">
-   <span class="badge navy">온+오프라인 교육</span>
-   <h3>건물주 자산전략 클래스</h3>
-   <div class="price">77만원</div>
-   <p class="lead" style="font-size:14px">2027.2.2 개강 예정 · 총 10강 (오프라인 2강) · 정원 12명</p>
+ </div>
+ <div class="two">
+  <div class="chk">
+   <h3>건물의 시장 가치, 이렇게 검증합니다</h3>
    <ul>
-    <li>건물을 판단하고, 고치고, 증명하고, 파는 순서</li>
-    <li>실제 사례와 숫자로 하는 수업</li>
-    <li>세무사·변호사 동석 회차</li>
-    <li>오프라인 2강 장소: 서울 강남구 (상세 장소는 개강 전 안내)</li>
+    <li>호가 vs 실거래·AI 추정가 — 비교거래를 고르고 보정률을 적용한 적정가 범위</li>
+    <li>실질임대료 — 렌트프리, 전용률, 관리비, TI를 반영한 검증</li>
+    <li>공부 서류 — 등기(권리), 건축물대장(위반·용도), 토지이용계획(용적률·규제)</li>
+    <li>세후 수익률 — 대출(LTV·DSCR)·취득세·보유세·수선비를 넣은 현금흐름</li>
+    <li>협상 근거 — 가격을 조정할 근거를 먼저 찾아 협상가와 상한선을 정한다</li>
    </ul>
-   <a class="btn ghost" href="#apply" id="latpeed-link">교육 신청하기 ›</a>
+  </div>
+  <div class="chk">
+   <h3>건물 가치, 이렇게 올립니다</h3>
+   <ul>
+    <li>렌트롤 정비 — 계약서·통장·현장을 맞추고 실질임대료부터 바로잡는다</li>
+    <li>공실 — 잠재 임차인 명단, 면적 분할, 렌트프리·TI 설계, 앵커 임차인</li>
+    <li>비용 — 관리비 정산, 용역·수선비 재입찰, 유휴공간 수익화로 NOI 회복</li>
+    <li>자본적 지출 — 회수되는 공사만 한다. 입구·동선·공용부 우선</li>
+    <li>증명 — 3년 수익 재현 자료집과 수선계획으로 매수자 실사보다 먼저 답한다</li>
+   </ul>
+  </div>
+ </div>
+ <div class="yesno">
+  <div class="chk"><h3>이런 분께 권합니다</h3><ul><li>건물을 사기 전에 적정한 가격인지, 가치가 오를 건물인지 알고 싶으신 분</li><li>매각을 앞두고 건물의 가치를 높이고 싶으신 분</li><li>임대관리와 공실 때문에 어려움을 겪으시는 분</li><li>법인 사옥을 사거나 빌릴지 판단해야 하는 분</li></ul></div>
+  <div class="chk no"><h3>이런 분께는 맞지 않습니다</h3><ul><li>"오를 물건을 찍어 달라"는 분</li><li>유행과 유명세에 따라 투자하고 싶으신 분</li><li>검토 없이 계약부터 서두르시는 분</li></ul></div>
+ </div>
+</div></section>
+
+<section class="sec" data-n="11"><div class="wrap">
+ <p class="eyebrow">Profile</p>
+ <h2>조훈희 <span style="font-size:.5em;font-weight:500;color:var(--sub)">부동산학 박사 · 부동산플래닛 자산전략센터 전문위원</span></h2>
+ <div class="prof">
+  <div class="pic"><img src="assets/lecture9/profile_ceo.jpg" alt="조훈희 교수 현장 강의"><div class="cap">한양대학교 건설·부동산 최고경영자과정 현장 강의</div></div>
+  <div class="cv">
+   <div class="blk"><h4>현재</h4><table>
+    <tr><td class="d">2023~</td><td>한양대학교 부동산융합대학원 겸임교수</td></tr>
+    <tr><td class="d">2024~</td><td>강남구 재건축드림지원단 책임자문위원</td></tr>
+    <tr><td class="d">현재</td><td>'조훈희의 부동산 실전노트' 채널 운영 · 부동산플래닛 전문위원</td></tr>
+   </table></div>
+   <div class="blk"><h4>경력</h4><table>
+    <tr><td class="d">2022~2023</td><td>현대캐피탈 — 전국 지점 입지 분석·개점·폐점 전략</td></tr>
+    <tr><td class="d">2019~2022</td><td>코람코자산운용 — 부동산 펀드 투자 및 운용</td></tr>
+    <tr><td class="d">2016~2019</td><td>CBRE 코리아 — SC제일은행 본사 및 지점 매입매각·임대차관리</td></tr>
+    <tr><td class="d">2014~2016</td><td>㈜에스티아이인터내셔널 — 그룹 보유 부동산 관리 및 개발</td></tr>
+    <tr><td class="d">2009~2014</td><td>㈜STX — 그룹 보유 부동산 관리 및 개발</td></tr>
+   </table></div>
+   <div class="cv2">
+    <div class="blk"><h4>학력</h4><table>
+     <tr><td class="d">2022.02</td><td>한양대학교 도시대학원 부동산학 박사</td></tr>
+     <tr><td class="d">2017.08</td><td>한양대학교 부동산융합대학원 부동산자산관리 석사</td></tr>
+     <tr><td class="d">2007.02</td><td>성균관대학교 경영학·정치외교학 학사</td></tr>
+    </table></div>
+    <div class="blk"><h4>수상</h4><table>
+     <tr><td class="d">2022.08</td><td>한국도시설계학회 학회장상 · 한양대 공로상·우수논문상</td></tr>
+     <tr><td class="d">2021.02</td><td>부동산연구 우수논문상 (한국부동산연구원)</td></tr>
+     <tr><td class="d">2017.12</td><td>CBRE Korea TOP 15 Members</td></tr>
+     <tr><td class="d">2017.11</td><td>부동산산업의 날 우수논문상 (국토교통부)</td></tr>
+     <tr><td class="d">2017.08</td><td>한양대학교 우수논문상</td></tr>
+     <tr><td class="d">2010~12</td><td>STX 업무능력 우수사원 표창 · 업무매뉴얼 프로젝트 우수</td></tr>
+    </table></div>
+   </div>
+   <div class="cv2">
+    <div class="blk"><h4>연구</h4><table>
+     <tr><td class="d">2022</td><td>등급별 오피스빌딩의 경과연수와 리모델링 여부가 실질점유비용에 미치는 영향 (박사학위논문)</td></tr>
+     <tr><td class="d">2022</td><td>등급별 오피스빌딩의 경과연수가 실질점유비용에 미치는 영향 (부동산학연구)</td></tr>
+     <tr><td class="d">2020</td><td>서울시 오피스 시장의 테넌트 임프루브먼트(TI)에 관한 연구 (부동산연구)</td></tr>
+    </table></div>
+    <div class="blk"><h4>주요 프로젝트</h4><table>
+     <tr><td>강남구 재건축드림지원단 재건축TF 책임자문</td></tr>
+     <tr><td>한국공항공사 상업시설 영업·임대수익 제고방안 평가</td></tr>
+     <tr><td>양주시 빈상가 살리기 상권분석 프로젝트</td></tr>
+     <tr><td>인천 청라 커넬웨이 상권 활성화 사례분석</td></tr>
+     <tr><td>도심 노후 전통상가 재개발사업 성공모델 검토</td></tr>
+     <tr><td>유통사 점포 입지·상권 분석 교육 (롯데백화점 · 신세계 · 스타필드 · 이마트에브리데이)</td></tr>
+     <tr><td>전국 중소형 빌딩 투자·매장 입지 자문 · 상업용 부동산 가치향상·매각 자문</td></tr>
+     <tr><td>기업형 임대주택 직접 투자·운용</td></tr>
+    </table></div>
+   </div>
+   
   </div>
  </div>
 </div></section>
 
-<section style="background:#fff7ef"><div class="wrap">
- <h2>부동산의 가치를 판단하고<br>높일 수 있는 방법을 알려드립니다</h2>
- <div class="twocol">
-  <div class="box yes"><h4>이런 분께 권합니다</h4><ul>
-   <li>매각을 앞두고 가치를 높이고 싶으신 분</li>
-   <li>건물을 사기 전에 적정한 가격인지 알고 싶으신 분</li>
-   <li>임대관리를 하는데 어려움을 겪으신 분</li>
-  </ul></div>
-  <div class="box no"><h4>이런 분께는 맞지 않습니다</h4><ul>
-   <li>"오를 물건을 찍어 달라"는 분</li>
-   <li>유행에 따라서 투자하고 싶으신 분</li>
-   <li>검토 없이 계약부터 서두르시는 분</li>
-  </ul></div>
- </div>
-</div></section>
-
-<section><div class="wrap">
- <p class="eyebrow">조훈희 전문위원</p>
- <h2>수백 건의 건물을 직접 관리하고,<br>투자해 본 검증된 전문가에게 맡기세요</h2>
- <div class="profile">
-  <img src="assets/suit_face.png" alt="조훈희 전문위원">
-  <ul>
-   <li><b>현재</b>㈜투에이치파트너스 대표 · 부동산플래닛 전문위원</li>
-   <li><b></b>한양대학교 부동산융합대학원 겸임교수 (2023~)</li>
-   <li><b></b>강남구 재건축드림지원단 책임자문위원 (2024~)</li>
-  </ul>
- </div>
-
- <div class="cv">
-  <div class="blk"><h4>학력</h4><ul>
-   <li><span>2022.02</span>한양대학교 도시대학원 부동산학 박사</li>
-   <li><span>2017.08</span>한양대학교 부동산융합대학원 부동산자산관리 석사</li>
-   <li><span>2007.02</span>성균관대학교 경영학과 · 정치외교학과 학사</li>
-  </ul></div>
-  <div class="cv2">
-   <div class="blk"><h4>수상</h4><ul>
-    <li><span>2022.08</span>한국도시설계학회 학회장상</li>
-    <li><span>2022.08</span>한양대학교 공로상 · 우수논문상</li>
-    <li><span>2021.02</span>부동산연구 우수논문상 (한국부동산연구원)</li>
-    <li><span>2017.12</span>CBRE Korea TOP 15 members</li>
-    <li><span>2017.11</span>부동산 산업의 날 우수논문 장려상 (한국감정원)</li>
-    <li><span>2017.08</span>한양대학교 우수논문상</li>
-    <li><span>2012.07</span>STX 업무매뉴얼 발간 프로젝트 우수</li>
-    <li><span>2010.11</span>STX 업무능력 우수사원 표창</li>
-   </ul></div>
-   <div class="blk"><h4>저서</h4><ul>
-    <li><span>2026</span>성수동의 시대 (한스미디어)</li>
-    <li><span>2026</span>부린 왕자 (오아시스)</li>
-    <li><span>2026.03</span>오늘부터 월급은 부동산으로 받습니다 (길벗)</li>
-    <li><span>2026.02</span>도시의 이해 (한국방송통신대학교, 공저)</li>
-    <li><span>2024.11</span>아빠, 부동산이 뭐예요? (프롬북스)</li>
-    <li><span>2023.08</span>부동산 투자, 농사짓듯 하라 (체인지업)</li>
-    <li><span>2021.02</span>밥벌이의 이로움 (프롬북스) · 2022 대만 번역 출간 (遠流)</li>
-   </ul></div>
-  </div>
-  <div class="blk"><h4>주요 프로젝트</h4><ul>
-   <li>강남구 재건축드림지원단 재건축TF 책임자문</li>
-   <li>한국공항공사 상업시설 영업 및 임대수익 제고방안 평가</li>
-   <li>양주시 빈상가 살리기 상권분석 프로젝트</li>
-   <li>인천 청라 커넬웨이 상권 활성화 사례분석</li>
-   <li>도심 노후 전통상가 재개발사업 성공모델 검토</li>
-   <li>전국 중소형 빌딩 투자 및 매장 입지 자문</li>
-   <li>상업용 부동산 가치향상 및 매각 자문</li>
-   <li>기업형 임대주택 직접 투자 및 운용</li>
-  </ul></div>
-  <div class="cv2">
-   <div class="blk"><h4>연구</h4><ul>
-    <li><span>2022</span>등급별 오피스빌딩의 경과연수와 리모델링 여부가 실질점유비용에 미치는 영향 (박사학위논문)</li>
-    <li><span>2022</span>등급별 오피스빌딩의 경과연수가 실질점유비용에 미치는 영향 (부동산학연구)</li>
-    <li><span>2020</span>서울시 오피스 시장의 테넌트 임프루브먼트(TI)에 관한 연구 (부동산연구)</li>
-   </ul></div>
-   <div class="blk"><h4>강의</h4><ul>
-    <li>한양대 부동산융합대학원 · 도시대학원 · ERICA 대학원</li>
-    <li>동국대 행정대학원 부동산학과</li>
-    <li>숭실사이버대 · 열린사이버대 · 한국방송통신대</li>
-   </ul><h4 style="margin-top:12px">자격</h4><ul>
-    <li>증권투자상담사 · 회계관리 1급</li>
-   </ul></div>
-  </div>
- </div>
- <div class="steps career" style="margin-top:22px">
-  <div class="step"><h4>STX <small style="color:#6b6259;font-weight:600">2009~2014 · 총무팀</small></h4><p>해운·조선을 중심으로 한 대기업 그룹. 남산의 그룹 사옥 STX남산타워 임대·관리를 맡았습니다.</p></div>
-  <div class="step"><h4>에너지 기업 <small style="color:#6b6259;font-weight:600">2014~2016 · 경영지원팀</small></h4><p>삼성역 인근 중형 빌딩과 보유 토지의 임대·관리 실무. 공실 채우기, 재계약, 용역비 협상을 했습니다.</p></div>
-  <div class="step"><h4>CBRE 코리아 <small style="color:#6b6259;font-weight:600">2016~2019 · GWS 차장</small></h4><p>미국에 본사를 둔 세계 최대 상업용 부동산 서비스·투자 회사. 기업 고객의 사옥·지점을 대신 관리하는 GWS 부문에서 SC제일은행 지점 사옥 관리를 맡았습니다.</p></div>
-  <div class="step"><h4>코람코자산운용 <small style="color:#6b6259;font-weight:600">2019~2022 · 투자운용 차장</small></h4><p>국내 민간 리츠 시장 1위 코람코 그룹의 부동산펀드 운용사. 리츠와 실물 부동산에 투자하는 멀티에셋 펀드를 운용했습니다.</p></div>
-  <div class="step"><h4>현대캐피탈 <small style="color:#6b6259;font-weight:600">2022~2023</small></h4><p>현대자동차그룹의 금융회사. 전국 지점의 입지 분석과 개점·폐점 전략을 맡았습니다.</p></div>
- </div>
-</div></section>
-
-<section style="padding-top:0"><div class="wrap">
+<section class="sec" data-n="12" style="padding-top:0"><div class="wrap narrow">
  <div class="letter">
-  건물값은 건물이 정하지 않습니다. 그 건물이 얼마를 버느냐가 정합니다.<br><br>
-  제가 빌딩 임대를 맡았을 때 가장 많이 배운 것은 큰 결정이 아니라 작은 숫자였습니다. 렌트프리 한 달, 인상 조항 한 줄, 놀던 창고 한 칸이 몇 년 뒤 건물값을 억 단위로 바꿨습니다.<br><br>
-  많은 건물주가 이 숫자를 모른 채 임대료를 내리고, 공실을 견디고, 서둘러 팝니다. 그 숫자를 보는 법을 알려 드리고 싶습니다.
+  건물값은 건물이 정하지 않습니다. 그 건물이 얼마를 버느냐, 그리고 그것을 얼마나 증명할 수 있느냐가 정합니다.<br><br>
+  저는 그룹 사옥을 팔았고, 100여 개 빌딩을 관리했고, 공실 절반인 건물을 임대료 한 푼 내리지 않고 채웠습니다. 그때 배운 것은 큰 결정이 아니라 작은 숫자였습니다. 렌트프리 한 달, 인상 조항 한 줄, 놀던 창고 한 칸이 몇 년 뒤 건물값을 억 단위로 바꿨습니다.<br><br>
+  좋은 건물을 싸게 사는 법, 건물을 좋게 만들어 비싸게 파는 법. 이 두 가지를 숫자와 경험으로 알려 드리겠습니다. 물건은 권하지 않습니다. 보는 눈을 드리겠습니다.
   <div class="sign">조훈희 드림</div>
  </div>
 </div></section>
 
-<section id="apply" style="background:#fff7ef"><div class="wrap">
- <p class="eyebrow">코칭 신청</p>
- <h2>연락처를 남겨 주시면<br>다음 영업일까지 연락드립니다</h2>
- <p class="lead">신청서는 2분이면 됩니다. 주민등록번호, 정확한 지번, 계약서는 적지 마세요.</p>
- <div style="margin-top:22px;display:flex;gap:12px;flex-wrap:wrap">
-  <a class="btn primary" href="https://forms.gle/zhRXi1NrAvXurkvd8" target="_blank" rel="noopener" id="form-link">1:1 코칭 신청서 작성하기 ›</a>
-  <a class="btn ghost" href="https://forms.gle/zhRXi1NrAvXurkvd8" target="_blank" rel="noopener" id="form-edu-link">교육 소식만 받기</a>
- </div>
- <p class="note">신청서에는 개인정보 수집·이용 동의(필수)와 교육·행사 안내 문자 수신 동의(선택)가 들어갑니다.</p>
-</div></section>
-
-<section><div class="wrap">
+<section class="sec" data-n="13" id="faq" style="background:#fff"><div class="wrap narrow">
  <p class="eyebrow">FAQ</p>
  <h2>자주 묻는 질문</h2>
- <details><summary>건물이 없어도 코칭을 받을 수 있나요?</summary><p>네. 사려는 건물이 있다면 그 건물의 숫자로 진행합니다. 아직 후보가 없다면 온+오프라인 교육을 먼저 권합니다.</p></details>
- <details><summary>어떤 건물까지 가능한가요?</summary><p>중소형 빌딩, 상가, 사옥, 토지 임대까지 가능합니다. 아파트 한 채 구입 상담은 하지 않습니다.</p></details>
- <details><summary>세금 문제도 봐 주시나요?</summary><p>세금이 판단에 미치는 방향은 함께 보고, 확정 계산은 세무사에게 연결해 드립니다.</p></details>
- <details><summary>환불은 어떻게 되나요?</summary><p>1:1 코칭은 코칭 진행 전 취소하시면 결제 금액의 80%를 환불해 드리며, 코칭 진행 후에는 환불되지 않습니다. 온+오프라인 교육은 결제 페이지(래피드)의 환불 규정을 따릅니다.</p></details>
+ <details><summary>건물이 없어도 들을 수 있나요?</summary><p>네. 1~2주는 '사는 법', 3주는 '고치고 파는 법'입니다. 후보 물건이 없으면 수업에서 함께 고른 실제 매물 사례로 실습합니다. 4주차 발표도 후보 물건으로 할 수 있습니다.</p></details>
+ <details><summary>투자금이 얼마나 있어야 하나요?</summary><p>금액 기준은 없습니다. 다만 '내 투자금으로 어느 시장에서 경쟁하는지'를 1주차에 정합니다. 10억대 꼬마빌딩부터 1,000억대 대형 빌딩까지, 보는 순서는 같습니다.</p></details>
+ <details><summary>매물을 추천해 주나요?</summary><p>직접적으로 물건을 권하지는 않습니다. 대신 AI와 데이터로 찾고 검증하는 법을 가르치고, 시중에 나와 있는 물건을 수업과 코칭에서 함께 검증합니다.</p></details>
+ <details><summary>중개·대출·시공 수수료를 받나요?</summary><p>받지 않습니다. 수익은 교육비와 코칭비뿐입니다.</p></details>
+ <details><summary>온라인만으로도 되나요?</summary><p>3회는 온라인 실시간 수업이고, 현장 실습 1회는 서울에서 진행합니다. 현장 실습 불참 시 다음 기수에 추가 참석 가능합니다.</p></details>
+ <details><summary>수업을 놓치면 녹화본을 볼 수 있나요?</summary><p>네. 실시간 수업은 녹화해서 수강 기간 동안 다시 볼 수 있습니다.</p></details>
+ <details><summary>1년 AS의 범위는 어디까지인가요?</summary><p>수료 후 1년 동안 부동산에 관한 어떤 질문이든 됩니다. 전세 계약, 경매, 아파트, 상가, 건물 매각까지. 카카오톡이나 메일로 질문하면 제가 직접 답합니다. 횟수 제한은 없습니다.</p></details>
+ <details><summary>무료 1:1 코칭은 언제 쓰나요?</summary><p>수강 중이나 수료 후 1년 안에 1회 쓰실 수 있습니다. 사전 면담 → 자료 분석 → 코칭까지 유료 코칭과 같습니다. 전략 보고서 작성 별도입니다.</p></details>
+ <details><summary>빌딩 투자 경험이 전혀 없는데 따라갈 수 있나요?</summary><p>1주차가 기초입니다. 용어부터 시작하고, 내 건물의 숫자를 직접 채우며 따라옵니다. 대학원 수업에서도 처음 오신 분들이 같은 순서로 배웁니다.</p></details>
+ <details><summary>환불 규정은 어떻게 되나요?</summary><p>개강 1주일 전까지는 전액 환불합니다. 그 이후 개강 전까지는 30%를 제외하고 환불하며, 개강 이후에는 환불이 되지 않습니다.</p></details>
+ <details><summary>세금계산서나 현금영수증이 되나요?</summary><p>네. ㈜투에이치파트너스 명의로 세금계산서와 현금영수증을 발행합니다. 법인 교육비 처리도 가능합니다.</p></details>
+ <details><summary>코칭만 따로 받을 수 있나요?</summary><p>네. 4주 교육과정을 수강하시기에 시간이 부족한 분들은 1:1 코칭(90만원, VAT 별도) 신청이 가능합니다.</p></details>
+ <details><summary>상담한 내용은 비밀이 보장되나요?</summary><p>네. 보고서와 자료는 외부에 공개하지 않습니다. 사례로 쓸 때는 반드시 동의를 받고 건물과 이름을 가립니다.</p></details>
 </div></section>
 
-<section style="padding-top:0"><div class="wrap">
- <div class="final">
-  <h2>가장 비싼 실수는<br>모르고 지나간 숫자입니다</h2>
-  <p>공실 한 칸, 계약서 한 줄이 건물값을 바꿉니다.</p>
-  <div class="ctas" style="margin-top:24px">
-   <a class="btn primary" href="#apply">1:1 코칭 신청 ›</a>
-   <a class="btn ghost" href="#class" style="background:transparent;color:#fff;border-color:#fff">온+오프라인 교육 보기</a>
+<section data-n="14" class="sec apply" id="apply"><div class="wrap">
+ <p class="eyebrow">Apply</p>
+ <h2>시작하세요</h2>
+ <div class="grid">
+  <div class="box">
+   <h3>상업용 부동산 투자와 매각전략 4주 과정</h3>
+   <p>온라인 3주(총 9시간) + 현장 실습 1회(2시간+α) · 정원 12명 · 1:1 코칭 1회와 1년 AS 포함 · 2027년 1월 말 개강</p>
+   <div class="price">180만원<small>VAT 별도</small></div>
+   <a class="btn gold" href="#apply">교육 신청하고 결제하기 ›</a>
+  </div>
+  <div class="box">
+   <h3>1:1 코칭</h3>
+   <p>사전 면담 → 자료 분석 → 코칭 → 전략 보고서 · 월 4회 한정</p>
+   <div class="price">90만원<small>VAT 별도</small></div>
+   <a class="btn line" href="https://forms.gle/zhRXi1NrAvXurkvd8" target="_blank" rel="noopener">코칭 신청서 작성하기 ›</a>
   </div>
  </div>
+ <p class="dnote" style="margin-top:22px">문의: contact@twohp.co.kr · 신청서에는 개인정보 수집·이용 동의(필수)와 교육·행사 안내 수신 동의(선택)가 들어갑니다.</p>
 </div></section>
 
 <footer><div class="wrap">
- ㈜투에이치파트너스 · 대표 조훈희 · 사업자등록번호 564-87-01649<br>
- 서울시 강남구 청담동 133-3 화천회관빌딩 9층 · 010-9357-0958 · contact@twohp.co.kr<br>
- 코칭과 교육은 부동산 판단을 돕는 자문이며, 투자 수익을 보장하지 않습니다. 세무·법률 판단은 해당 전문가의 확인이 필요합니다.
+ ㈜투에이치파트너스 · 대표 조훈희 · 서울시 강남구 영동대로 702 화천회관빌딩 9층(서울사무소) · 사업자등록번호 564-87-01649 · contact@twohp.co.kr<br>
+ <a href="privacy.html" target="_blank" rel="noopener">개인정보 처리방침</a><br>
+ 본 페이지의 사례와 숫자는 계약서·공문·보도·강의평가 원문을 근거로 하며, 결과는 건물과 시장에 따라 다릅니다. 물건을 권유하거나 중개하지 않습니다.
 </div></footer>
 
 <div class="bar">
- <a class="btn primary" href="#apply">1:1 코칭 신청</a>
- <a class="btn ghost" href="#class">교육 신청</a>
+ <a class="btn gold" href="#apply">교육 신청 · 180만원</a>
+ <a class="btn line dark" href="#coaching">1:1 코칭</a>
 </div>
 </body>
 </html>
